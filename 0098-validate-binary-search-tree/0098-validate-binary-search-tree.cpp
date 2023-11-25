@@ -12,9 +12,7 @@
 class Solution {
     bool func(TreeNode* root,long long left,long long right){
         if(!root){return true;}
-        bool l=func(root->left,left,root->val);
-        bool r=func(root->right,root->val,right);
-        return left<root->val && root->val<right && l &&r;
+        return left<root->val && root->val<right && func(root->left,left,root->val) &&func(root->right,root->val,right);
     }
 public:
     bool isValidBST(TreeNode* root) {
