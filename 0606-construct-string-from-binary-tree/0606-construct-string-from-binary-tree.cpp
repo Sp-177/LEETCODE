@@ -10,26 +10,21 @@
  * };
  */
 class Solution {
-public:
-    void solve(TreeNode* root,string&output){
-        if(!root){return;}
-        output=output+to_string(root->val);
-        if(root->left||root->right){
-        output+="(";
-        solve(root->left,output);
-        output+=")";}
-        if(root->right){
-            output+="(";
-        solve(root->right,output);
-        output+=")";
+    private:
+        string func(TreeNode* root){
+            if(!root){return "";}
+            string l,r;
+            if(root->left || root->right){
+                l='('+func(root->left)+')';
+            }
+            if(root->right){
+                
+                r='('+func(root->right)+')';
+            }
+            return to_string(root->val)+l+r;
         }
-
-
-    }
+public:
     string tree2str(TreeNode* root) {
-        string output="";
-        if(!root){return output;}
-        solve(root,output);
-        return output;
+        return func(root);
     }
 };
