@@ -22,8 +22,8 @@ class Solution {
 public:
     int maxPathSum(TreeNode* root) {
         int Maxi=INT_MIN;
-        int ans=func(root,Maxi);
-        return max(ans,Maxi);
+       
+        return max( func(root,Maxi),Maxi);
 
     }
 };
