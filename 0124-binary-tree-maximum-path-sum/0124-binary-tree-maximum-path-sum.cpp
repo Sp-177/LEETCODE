@@ -13,11 +13,10 @@ class Solution {
     private:
     int func(TreeNode* root,int&Maxi){
         if(!root){return 0;}
-        int left=func(root->left,Maxi);
-        int right=func(root->right,Maxi);
-        Maxi=max(Maxi,max(right+root->val,left+root->val));
-        Maxi=max(Maxi,max(left+right+root->val,root->val));
-        return max(root->val,max(left+root->val,root->val+right));
+        int left=max(func(root->left,Maxi),0);
+        int right=max(func(root->right,Maxi),0);
+        Maxi=max(Maxi,left+right+root->val);
+        return max(left+root->val,root->val+right);
         
     }
 public:
