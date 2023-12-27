@@ -1,20 +1,20 @@
 class Solution {
-
 public:
-
     int longestPalindromeSubseq(string s) {
-        if(s.size()==1)return 1;
-        vector<vector<int>>dp(s.size(),vector<int>(s.size(),0));
-        for(int i=0;i<s.size();i++)dp[i][i]=1;
-        for(int i=s.size()-2;i>=0;i--){
-            for(int j=1;j<s.size();j++){
-                if(i>j){dp[i][j]=0;}
-                else if(i==j){dp[i][j]=1;}
-                else if(s[i]==s[j]){ dp[i][j]=2+dp[i+1][j-1];}
-                else dp[i][j]=max(dp[i+1][j],dp[i][j-1]);
-               
+        string s2;
+        int S=s.size();
+        for(int i=S-1;i>=0;i--)s2=s2+s[i];
+        vector<vector<int>>dp(S+1,vector<int>(S+1));
+        for(int i=1;i<S+1;i++){
+            for(int j=1;j<S+1;j++){
+                if(s[i-1]==s2[j-1]){
+                    dp[i][j]=1+dp[i-1][j-1];
+                }
+                else{
+                    dp[i][j]=max(dp[i][j-1],dp[i-1][j]);
+                }
             }
         }
-        return dp[0][s.size()-1];
+        return dp[S][S];
     }
 };
