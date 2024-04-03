@@ -9,7 +9,7 @@ class Solution {
     bool func(vector<vector<char>>& board,vector<vector<bool>>& grid,string word,int i,int j,int x,int m,int n){
         
         if(x==word.size()){return true;}
-        else if(i==m-1 && j==n){return false;}
+        if(i==m-1 && j==n){return false;}
         if(check(board,grid,i,j,word[x],m,n)){
             grid[i][j]=true;
             if(func(board,grid,word,i,j+1,x+1,m,n))return true;
