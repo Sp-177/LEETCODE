@@ -1,22 +1,23 @@
 class Solution {
-    public int[] deckRevealedIncreasing(int[] deck) {
-        Arrays.sort(deck);
-        int index = deck.length - 1;
-        Deque<Integer> d = new LinkedList<>();
-        d.add(deck[index--]);
-        while (index >= 0) {
-            int b = d.pollLast();
-            d.addFirst(b);
-            d.addFirst(deck[index]);
+public:
+    vector<int> deckRevealedIncreasing(vector<int>& deck) {
+        vector<int>arr(deck.size());
+        sort(deck.begin(),deck.end());
+        int index=deck.size()-1;
+        deque<int>d;
+        d.push_back(deck[index--]);
+        while(index>=0){
+            int b=d.back();
+            d.pop_back();
+            d.push_front(b);
+            d.push_front(deck[index]);
             index--;
         }
-        int[] ans = new int[deck.length];
-        int i = 0;
-        Iterator<Integer> iterator = d.iterator();
-        while (iterator.hasNext()) {
-            ans[i++] = iterator.next();
-            iterator.remove();
+        vector<int>ans;
+        for(int i:d){
+            ans.push_back(d.front());
+            d.pop_front();
         }
         return ans;
     }
-}
+};
