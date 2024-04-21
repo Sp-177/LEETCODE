@@ -6,13 +6,11 @@ public:
     long long sum=0;
     
     for(int i=0;i<nums.size();i++){
-            if(sum<0)sum=0;
-            sum=(sum+nums[i]);
-            
-            if(ans<sum ||ans<nums[i]){
-                if(sum<nums[i])ans=nums[i];
-                else ans=sum;
-            }
+        
+        sum+=nums[i];
+        ans=max(ans,sum);
+        if(sum<0)sum=0;
+        
         
     }
     return ans;
