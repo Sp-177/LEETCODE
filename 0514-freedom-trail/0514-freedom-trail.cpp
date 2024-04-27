@@ -1,38 +1,27 @@
 class Solution {
-    public int findRotateSteps(String ring, String key) {
-      Map<Character, List<Integer>> m = new HashMap<>();
-        int[][] dp = new int[ring.length()][key.length()];
-        for (int[] row : dp)
-            Arrays.fill(row, -1);
-        
-        for (int i = 0; i < ring.length(); i++) {
-            char c = ring.charAt(i);
-            if (!m.containsKey(c))
-                m.put(c, new ArrayList<>());
-            m.get(c).add(i);
-        }
-        
-        return sol(ring, key, 0, 0, m, dp);
-    }
-    
-    private int sol(String ring, String key, int index_key, int index_ring, Map<Character, List<Integer>> m, int[][] dp) {
-        if (index_key == key.length()) return 0;
-        if (index_ring == -1) index_ring = ring.length() - 1;
-        if (index_ring == ring.length()) index_ring = 0;
-        if (dp[index_ring][index_key] != -1) return dp[index_ring][index_key];
-        
-        char currentChar = key.charAt(index_key);
-        List<Integer> positions = m.get(currentChar);
-        int ans = Integer.MAX_VALUE;
-        
-        for (int i : positions) {
-            int dist1 = Math.abs(index_ring - i);
-            int dist2 = Math.min(index_ring, i) + ring.length() - Math.max(index_ring, i);
-            int distance = Math.min(dist1, dist2);
+public:
+    int sol(string ring ,string key,int index_key,int index_ring,unordered_map<char,vector<int>>&m,vector<vector<int>>&dp){
+        if(index_key==key.size())return 0;
+        if(index_ring==-1)index_ring=ring.size()-1;
+        if(index_ring==ring.size())index_ring=0;
+        if(dp[index_ring][index_key]!=-1)return dp[index_ring][index_key];
+        vector<int>c=m[key[index_key]];
+        int ans=INT_MAX;
+        for(int i:c){
+            int dist1=abs(index_ring-i);
+            int dist2=min(index_ring,i)+ring.size()-max(index_ring,i);
+            int dis=min(dist1,dist2);
             
-            ans = Math.min(sol(ring, key, index_key + 1, i, m, dp) + 1 + distance, ans);
+            ans=min(sol(ring,key,index_key+1,i,m,dp)+1+dis,ans);
         }
-        
-        return dp[index_ring][index_key] = ans;
+       
+        return dp[index_ring][index_key]=ans;
     }
-}
+    int findRotateSteps(string ring, string key) {
+        unordered_map<char,vector<int>>m;
+        vector<vector<int>>dp(ring.size(),vector<int>(key.size(),-1));
+        for(int i=0;i<ring.size();i++)m[ring[i]].push_back(i);
+        return sol(ring,key,0,0,m,dp);
+        
+    }
+};
