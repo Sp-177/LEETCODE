@@ -11,19 +11,17 @@
  */
 class Solution {
 public:
-    void sol(int h,TreeNode* root,map<int,int>&m,vector<int>&ans){
+    void sol(int h,TreeNode* root,vector<int>&ans){
         if(!root){return ;}
-        if(m[h]==0){
-            m[h]=1;
+        if(ans.size()<=h){
             ans.push_back(root->val);
         }
-        sol(h+1,root->right,m,ans);
-        sol(h+1,root->left,m,ans);
+        sol(h+1,root->right,ans);
+        sol(h+1,root->left,ans);
     }
     vector<int> rightSideView(TreeNode* root) {
-        map<int,int>m;
         vector<int>ans;
-        sol(1,root,m,ans);
+        sol(0,root,ans);
         return ans;
         
     }
