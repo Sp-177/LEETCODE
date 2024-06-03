@@ -14,22 +14,20 @@
  * }
  */
 public class Solution {
-    private void sol(int h, TreeNode root, Map<Integer, Boolean> m, List<Integer> ans) {
+    private void sol(int h, TreeNode root, List<Integer> ans) {
         if (root == null) {
             return;
         }
-        if (!m.getOrDefault(h, false)) {
-            m.put(h, true);
+        if (ans.size() <= h) {
             ans.add(root.val);
         }
-        sol(h + 1, root.right, m, ans);
-        sol(h + 1, root.left, m, ans);
+        sol(h + 1, root.right, ans);
+        sol(h + 1, root.left, ans);
     }
 
     public List<Integer> rightSideView(TreeNode root) {
-        Map<Integer, Boolean> m = new HashMap<>();
         List<Integer> ans = new ArrayList<>();
-        sol(1, root, m, ans);
+        sol(0, root, ans);
         return ans;
     }
 }
