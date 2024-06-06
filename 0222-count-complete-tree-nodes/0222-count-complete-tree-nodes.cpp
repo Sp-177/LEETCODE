@@ -11,10 +11,19 @@
  */
 class Solution {
 public:
+    int lh(TreeNode*root){
+        if(!root){return 0;}
+        return lh(root->left)+1;
+    }
+    int rh(TreeNode*root){
+        if(!root){return 0;}
+        return rh(root->right)+1;
+    }
     int countNodes(TreeNode* root) {
         if(!root){return 0;}
-        int l=countNodes(root->left);
-        int r=countNodes(root->right);
-        return l+r+1;
+        int l=lh(root);
+        int r=rh(root);
+        if(l==r){return (1<<l)-1;}
+        return 1+countNodes(root->left)+countNodes(root->right);
     }
 };
