@@ -11,7 +11,7 @@ public:
         // for(auto j:m){cout<<j.first<<' '<<j.second<<endl;}
         for(int i=0;i<(hand.size()/groupSize);i++){
             int it=m.begin()->first;
-            cout<<endl<<it<<endl;
+            // cout<<endl<<it<<endl;
             int len=0;
             if(m.size()<groupSize){return false;}
             for(auto j:m){
