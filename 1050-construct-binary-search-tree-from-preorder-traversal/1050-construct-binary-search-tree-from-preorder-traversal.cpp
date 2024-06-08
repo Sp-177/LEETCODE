@@ -9,30 +9,18 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-
 class Solution {
 public:
-    TreeNode* insert(TreeNode* root,int val){
-        if(!root){
-            TreeNode* node=new TreeNode(val);
-            return node;
-        }
-        if(val<root->val){
-            TreeNode* l=insert(root->left,val);
-            if(l){root->left=l;}
-            return NULL;
-        }
-        
-            TreeNode* r=insert(root->right,val);
-            if(r){root->right=r;}
-            return NULL;
-        
+        TreeNode* bstFromPreorder(vector<int>& A) {
+        int i = 0;
+        return build(A, i, INT_MAX);
     }
-    TreeNode* bstFromPreorder(vector<int>& preorder) {
-        TreeNode* root=new TreeNode(preorder[0]);
-        for(int i=1;i<preorder.size();i++){
-            insert(root,preorder[i]);
-        }
+
+    TreeNode* build(vector<int>& A, int& i, int bound) {
+        if (i == A.size() || A[i] > bound) return NULL;
+        TreeNode* root = new TreeNode(A[i++]);
+        root->left = build(A, i, root->val);
+        root->right = build(A, i, bound);
         return root;
     }
 };
