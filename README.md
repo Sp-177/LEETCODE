@@ -57,3 +57,27 @@ This repository is licensed under the [MIT License](LICENSE).
 ---
 
 Feel free to customize this README further to suit your preferences and showcase your LeetCode solutions in the best possible light!
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/Sp-177/LEETCODE/tree/master/0169-majority-element) |
+## Hash Table
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/Sp-177/LEETCODE/tree/master/0169-majority-element) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/Sp-177/LEETCODE/tree/master/0169-majority-element) |
+## Sorting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/Sp-177/LEETCODE/tree/master/0169-majority-element) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/Sp-177/LEETCODE/tree/master/0169-majority-element) |
+<!---LeetCode Topics End-->
