@@ -63,6 +63,7 @@ Feel free to customize this README further to suit your preferences and showcase
 ## Array
 |  |
 | ------- |
+| [0018-4sum](https://github.com/Sp-177/LEETCODE/tree/master/0018-4sum) |
 | [0169-majority-element](https://github.com/Sp-177/LEETCODE/tree/master/0169-majority-element) |
 ## Hash Table
 |  |
@@ -75,9 +76,14 @@ Feel free to customize this README further to suit your preferences and showcase
 ## Sorting
 |  |
 | ------- |
+| [0018-4sum](https://github.com/Sp-177/LEETCODE/tree/master/0018-4sum) |
 | [0169-majority-element](https://github.com/Sp-177/LEETCODE/tree/master/0169-majority-element) |
 ## Counting
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Sp-177/LEETCODE/tree/master/0169-majority-element) |
+## Two Pointers
+|  |
+| ------- |
+| [0018-4sum](https://github.com/Sp-177/LEETCODE/tree/master/0018-4sum) |
 <!---LeetCode Topics End-->
