@@ -87,9 +87,18 @@ Feel free to customize this README further to suit your preferences and showcase
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Sp-177/LEETCODE/tree/master/0005-longest-palindromic-substring) |
 | [0018-4sum](https://github.com/Sp-177/LEETCODE/tree/master/0018-4sum) |
 ## Binary Search
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Sp-177/LEETCODE/tree/master/0004-median-of-two-sorted-arrays) |
+## String
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/Sp-177/LEETCODE/tree/master/0005-longest-palindromic-substring) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/Sp-177/LEETCODE/tree/master/0005-longest-palindromic-substring) |
 <!---LeetCode Topics End-->
