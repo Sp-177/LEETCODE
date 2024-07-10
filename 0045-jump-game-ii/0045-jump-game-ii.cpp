@@ -1,21 +1,19 @@
 class Solution {
 public:
-    int Jump(vector<int>&nums,int index,vector<int>&dp){
-        if(index>=nums.size()){return INT_MAX;}
-        if(index==nums.size()-1){return 0;}
-        if(dp[index]!=-1){return dp[index];}
-        int ans=INT_MAX;
-        for(int i=1;i<=nums[index];i++){
-            if(index+i<nums.size()){
-                int out=Jump(nums,index+i,dp);
-
-                if(out!=INT_MAX)ans=min(ans,out+1);
-            }
-        }
-        return dp[index]=ans;
-    }
     int jump(vector<int>& nums) {
-        vector<int>dp(nums.size(),-1);
-        return Jump(nums,0,dp);
+        vector<int>dp(nums.size(),0);
+        int n=nums.size();
+        for(int i=nums.size()-2;i>=0;i--){
+            int jump=INT_MAX-1;
+            for(int j=min(n-1,nums[i]+i);j>i;j--){
+                // cout<<j<<endl;
+                jump=min(jump,dp[j]);
+                // cout<<jump<<",";
+            }
+            //  cout<<jump<<endl;
+             
+            dp[i]=jump+1;
+        }
+        return dp[0];
     }
 };
