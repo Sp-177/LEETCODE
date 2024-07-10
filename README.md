@@ -70,6 +70,7 @@ Feel free to customize this README further to suit your preferences and showcase
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Sp-177/LEETCODE/tree/master/0169-majority-element) |
+| [0424-longest-repeating-character-replacement](https://github.com/Sp-177/LEETCODE/tree/master/0424-longest-repeating-character-replacement) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -97,8 +98,13 @@ Feel free to customize this README further to suit your preferences and showcase
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Sp-177/LEETCODE/tree/master/0005-longest-palindromic-substring) |
+| [0424-longest-repeating-character-replacement](https://github.com/Sp-177/LEETCODE/tree/master/0424-longest-repeating-character-replacement) |
 ## Dynamic Programming
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Sp-177/LEETCODE/tree/master/0005-longest-palindromic-substring) |
+## Sliding Window
+|  |
+| ------- |
+| [0424-longest-repeating-character-replacement](https://github.com/Sp-177/LEETCODE/tree/master/0424-longest-repeating-character-replacement) |
 <!---LeetCode Topics End-->
