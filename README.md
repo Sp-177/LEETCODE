@@ -64,6 +64,7 @@ Feel free to customize this README further to suit your preferences and showcase
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Sp-177/LEETCODE/tree/master/0004-median-of-two-sorted-arrays) |
+| [0016-3sum-closest](https://github.com/Sp-177/LEETCODE/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Sp-177/LEETCODE/tree/master/0018-4sum) |
 | [0045-jump-game-ii](https://github.com/Sp-177/LEETCODE/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Sp-177/LEETCODE/tree/master/0055-jump-game) |
@@ -82,6 +83,7 @@ Feel free to customize this README further to suit your preferences and showcase
 ## Sorting
 |  |
 | ------- |
+| [0016-3sum-closest](https://github.com/Sp-177/LEETCODE/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Sp-177/LEETCODE/tree/master/0018-4sum) |
 | [0169-majority-element](https://github.com/Sp-177/LEETCODE/tree/master/0169-majority-element) |
 | [0295-find-median-from-data-stream](https://github.com/Sp-177/LEETCODE/tree/master/0295-find-median-from-data-stream) |
@@ -93,6 +95,7 @@ Feel free to customize this README further to suit your preferences and showcase
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Sp-177/LEETCODE/tree/master/0005-longest-palindromic-substring) |
+| [0016-3sum-closest](https://github.com/Sp-177/LEETCODE/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Sp-177/LEETCODE/tree/master/0018-4sum) |
 | [0295-find-median-from-data-stream](https://github.com/Sp-177/LEETCODE/tree/master/0295-find-median-from-data-stream) |
 | [0647-palindromic-substrings](https://github.com/Sp-177/LEETCODE/tree/master/0647-palindromic-substrings) |
