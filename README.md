@@ -78,6 +78,7 @@ Feel free to customize this README further to suit your preferences and showcase
 ## Hash Table
 |  |
 | ------- |
+| [0127-word-ladder](https://github.com/Sp-177/LEETCODE/tree/master/0127-word-ladder) |
 | [0169-majority-element](https://github.com/Sp-177/LEETCODE/tree/master/0169-majority-element) |
 | [0424-longest-repeating-character-replacement](https://github.com/Sp-177/LEETCODE/tree/master/0424-longest-repeating-character-replacement) |
 ## Divide and Conquer
@@ -112,6 +113,7 @@ Feel free to customize this README further to suit your preferences and showcase
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Sp-177/LEETCODE/tree/master/0005-longest-palindromic-substring) |
+| [0127-word-ladder](https://github.com/Sp-177/LEETCODE/tree/master/0127-word-ladder) |
 | [0424-longest-repeating-character-replacement](https://github.com/Sp-177/LEETCODE/tree/master/0424-longest-repeating-character-replacement) |
 | [0647-palindromic-substrings](https://github.com/Sp-177/LEETCODE/tree/master/0647-palindromic-substrings) |
 ## Dynamic Programming
@@ -155,6 +157,7 @@ Feel free to customize this README further to suit your preferences and showcase
 ## Breadth-First Search
 |  |
 | ------- |
+| [0127-word-ladder](https://github.com/Sp-177/LEETCODE/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/Sp-177/LEETCODE/tree/master/0130-surrounded-regions) |
 | [0542-01-matrix](https://github.com/Sp-177/LEETCODE/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/Sp-177/LEETCODE/tree/master/0547-number-of-provinces) |
