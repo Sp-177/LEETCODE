@@ -74,6 +74,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0542-01-matrix](https://github.com/Sp-177/LEETCODE/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Sp-177/LEETCODE/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/Sp-177/LEETCODE/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/Sp-177/LEETCODE/tree/master/1073-number-of-enclaves) |
 ## Hash Table
 |  |
 | ------- |
@@ -149,6 +150,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0130-surrounded-regions](https://github.com/Sp-177/LEETCODE/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/Sp-177/LEETCODE/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/Sp-177/LEETCODE/tree/master/0733-flood-fill) |
+| [1073-number-of-enclaves](https://github.com/Sp-177/LEETCODE/tree/master/1073-number-of-enclaves) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -157,11 +159,13 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0547-number-of-provinces](https://github.com/Sp-177/LEETCODE/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/Sp-177/LEETCODE/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/Sp-177/LEETCODE/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/Sp-177/LEETCODE/tree/master/1073-number-of-enclaves) |
 ## Union Find
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/Sp-177/LEETCODE/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/Sp-177/LEETCODE/tree/master/0547-number-of-provinces) |
+| [1073-number-of-enclaves](https://github.com/Sp-177/LEETCODE/tree/master/1073-number-of-enclaves) |
 ## Graph
 |  |
 | ------- |
@@ -173,4 +177,5 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0542-01-matrix](https://github.com/Sp-177/LEETCODE/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Sp-177/LEETCODE/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/Sp-177/LEETCODE/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/Sp-177/LEETCODE/tree/master/1073-number-of-enclaves) |
 <!---LeetCode Topics End-->
