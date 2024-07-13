@@ -138,4 +138,20 @@ Feel free to customize this README further to suit your preferences and showcase
 | ------- |
 | [0045-jump-game-ii](https://github.com/Sp-177/LEETCODE/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Sp-177/LEETCODE/tree/master/0055-jump-game) |
+## Depth-First Search
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/Sp-177/LEETCODE/tree/master/0547-number-of-provinces) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/Sp-177/LEETCODE/tree/master/0547-number-of-provinces) |
+## Union Find
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/Sp-177/LEETCODE/tree/master/0547-number-of-provinces) |
+## Graph
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/Sp-177/LEETCODE/tree/master/0547-number-of-provinces) |
 <!---LeetCode Topics End-->
