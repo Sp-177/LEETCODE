@@ -77,6 +77,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [1036-rotting-oranges](https://github.com/Sp-177/LEETCODE/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/Sp-177/LEETCODE/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Sp-177/LEETCODE/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Sp-177/LEETCODE/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1753-path-with-minimum-effort](https://github.com/Sp-177/LEETCODE/tree/master/1753-path-with-minimum-effort) |
 ## Hash Table
 |  |
@@ -134,6 +135,7 @@ Feel free to customize this README further to suit your preferences and showcase
 |  |
 | ------- |
 | [0424-longest-repeating-character-replacement](https://github.com/Sp-177/LEETCODE/tree/master/0424-longest-repeating-character-replacement) |
+| [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Sp-177/LEETCODE/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 ## Design
 |  |
 | ------- |
@@ -212,4 +214,8 @@ Feel free to customize this README further to suit your preferences and showcase
 |  |
 | ------- |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Sp-177/LEETCODE/tree/master/0803-cheapest-flights-within-k-stops) |
+## Prefix Sum
+|  |
+| ------- |
+| [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Sp-177/LEETCODE/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 <!---LeetCode Topics End-->
