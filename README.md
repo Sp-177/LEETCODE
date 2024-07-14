@@ -74,6 +74,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0542-01-matrix](https://github.com/Sp-177/LEETCODE/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Sp-177/LEETCODE/tree/master/0733-flood-fill) |
 | [0854-making-a-large-island](https://github.com/Sp-177/LEETCODE/tree/master/0854-making-a-large-island) |
+| [0940-fruit-into-baskets](https://github.com/Sp-177/LEETCODE/tree/master/0940-fruit-into-baskets) |
 | [1036-rotting-oranges](https://github.com/Sp-177/LEETCODE/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/Sp-177/LEETCODE/tree/master/1046-max-consecutive-ones-iii) |
 | [1073-number-of-enclaves](https://github.com/Sp-177/LEETCODE/tree/master/1073-number-of-enclaves) |
@@ -87,6 +88,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0127-word-ladder](https://github.com/Sp-177/LEETCODE/tree/master/0127-word-ladder) |
 | [0169-majority-element](https://github.com/Sp-177/LEETCODE/tree/master/0169-majority-element) |
 | [0424-longest-repeating-character-replacement](https://github.com/Sp-177/LEETCODE/tree/master/0424-longest-repeating-character-replacement) |
+| [0940-fruit-into-baskets](https://github.com/Sp-177/LEETCODE/tree/master/0940-fruit-into-baskets) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -140,6 +142,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Sp-177/LEETCODE/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/Sp-177/LEETCODE/tree/master/0424-longest-repeating-character-replacement) |
+| [0940-fruit-into-baskets](https://github.com/Sp-177/LEETCODE/tree/master/0940-fruit-into-baskets) |
 | [1046-max-consecutive-ones-iii](https://github.com/Sp-177/LEETCODE/tree/master/1046-max-consecutive-ones-iii) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Sp-177/LEETCODE/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 ## Design
