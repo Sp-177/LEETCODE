@@ -75,6 +75,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0542-01-matrix](https://github.com/Sp-177/LEETCODE/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Sp-177/LEETCODE/tree/master/0733-flood-fill) |
 | [0854-making-a-large-island](https://github.com/Sp-177/LEETCODE/tree/master/0854-making-a-large-island) |
+| [0890-lemonade-change](https://github.com/Sp-177/LEETCODE/tree/master/0890-lemonade-change) |
 | [0940-fruit-into-baskets](https://github.com/Sp-177/LEETCODE/tree/master/0940-fruit-into-baskets) |
 | [1036-rotting-oranges](https://github.com/Sp-177/LEETCODE/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/Sp-177/LEETCODE/tree/master/1046-max-consecutive-ones-iii) |
@@ -171,6 +172,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0045-jump-game-ii](https://github.com/Sp-177/LEETCODE/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Sp-177/LEETCODE/tree/master/0055-jump-game) |
 | [0455-assign-cookies](https://github.com/Sp-177/LEETCODE/tree/master/0455-assign-cookies) |
+| [0890-lemonade-change](https://github.com/Sp-177/LEETCODE/tree/master/0890-lemonade-change) |
 ## Depth-First Search
 |  |
 | ------- |
