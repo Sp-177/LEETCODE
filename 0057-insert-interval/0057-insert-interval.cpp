@@ -1,25 +1,19 @@
 class Solution {
 public:
-    vector<vector<int>> insert(vector<vector<int>>& intervals, vector<int>& newInterval) {
-        vector<vector<int>> merged;
-        int i = 0;
-
-        while (i < intervals.size() && intervals[i][1] < newInterval[0]) {
-            merged.push_back(intervals[i]);
-            i++;
+    vector<vector<int>> insert(vector<vector<int>>& iv, vector<int>& ni) {
+        iv.push_back(ni);
+        sort(iv.begin(),iv.end());
+        vector<vector<int>>ans;
+        ans.push_back(iv[0]);
+        for(int i=1;i<iv.size();i++){
+            int last=ans.back()[1];
+            if(iv[i][0]<=last){
+                ans.back()[1]=max(last,iv[i][1]);
+            }
+            else{
+                ans.push_back(iv[i]);
+            }
         }
-
-        while (i < intervals.size() && intervals[i][0] <= newInterval[1]) {
-            newInterval = {min(newInterval[0], intervals[i][0]), max(newInterval[1], intervals[i][1])};
-            i++;
-        }
-        merged.push_back(newInterval);
-
-        while (i < intervals.size()) {
-            merged.push_back(intervals[i]);
-            i++;
-        }
-
-        return merged;
+        return ans;
     }
 };
