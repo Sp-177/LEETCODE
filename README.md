@@ -71,6 +71,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0130-surrounded-regions](https://github.com/Sp-177/LEETCODE/tree/master/0130-surrounded-regions) |
 | [0169-majority-element](https://github.com/Sp-177/LEETCODE/tree/master/0169-majority-element) |
 | [0213-house-robber-ii](https://github.com/Sp-177/LEETCODE/tree/master/0213-house-robber-ii) |
+| [0435-non-overlapping-intervals](https://github.com/Sp-177/LEETCODE/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Sp-177/LEETCODE/tree/master/0455-assign-cookies) |
 | [0542-01-matrix](https://github.com/Sp-177/LEETCODE/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Sp-177/LEETCODE/tree/master/0733-flood-fill) |
@@ -104,6 +105,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0018-4sum](https://github.com/Sp-177/LEETCODE/tree/master/0018-4sum) |
 | [0169-majority-element](https://github.com/Sp-177/LEETCODE/tree/master/0169-majority-element) |
 | [0295-find-median-from-data-stream](https://github.com/Sp-177/LEETCODE/tree/master/0295-find-median-from-data-stream) |
+| [0435-non-overlapping-intervals](https://github.com/Sp-177/LEETCODE/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Sp-177/LEETCODE/tree/master/0455-assign-cookies) |
 ## Counting
 |  |
@@ -140,6 +142,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0045-jump-game-ii](https://github.com/Sp-177/LEETCODE/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Sp-177/LEETCODE/tree/master/0055-jump-game) |
 | [0213-house-robber-ii](https://github.com/Sp-177/LEETCODE/tree/master/0213-house-robber-ii) |
+| [0435-non-overlapping-intervals](https://github.com/Sp-177/LEETCODE/tree/master/0435-non-overlapping-intervals) |
 | [0542-01-matrix](https://github.com/Sp-177/LEETCODE/tree/master/0542-01-matrix) |
 | [0647-palindromic-substrings](https://github.com/Sp-177/LEETCODE/tree/master/0647-palindromic-substrings) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Sp-177/LEETCODE/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -171,6 +174,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | ------- |
 | [0045-jump-game-ii](https://github.com/Sp-177/LEETCODE/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Sp-177/LEETCODE/tree/master/0055-jump-game) |
+| [0435-non-overlapping-intervals](https://github.com/Sp-177/LEETCODE/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Sp-177/LEETCODE/tree/master/0455-assign-cookies) |
 | [0890-lemonade-change](https://github.com/Sp-177/LEETCODE/tree/master/0890-lemonade-change) |
 ## Depth-First Search
