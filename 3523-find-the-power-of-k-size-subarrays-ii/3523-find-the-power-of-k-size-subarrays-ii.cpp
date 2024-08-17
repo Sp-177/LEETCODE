@@ -63,7 +63,7 @@
 class Solution {
 public:
     vector<int> resultsArray(vector<int>& nums, int k) {
-       if(k==1)return nums;
+    //    if(k==1)return nums;
        
        int i=0,j=0;
        int n=nums.sz;
