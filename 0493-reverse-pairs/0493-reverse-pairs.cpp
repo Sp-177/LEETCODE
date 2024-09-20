@@ -1,43 +1,31 @@
 class Solution {
 public:
-    int split_check(vector<int>&a,int i,int j){
-    // cout<<i<<j<<endl;
-    if(i==j)return 0;
-    int mid=(i+j)/2;
-    int x=split_check(a,i, mid);
-    int y=split_check(a, mid+1,  j);
-    int ans=0;
-    int start1=i,start2=mid+1;
-    while(start1<mid+1&&start2<=j){
-        long long c=a[start2];
-        c+=a[start2];
-        if(a[start1]>c){
-            ans+=mid-start1+1;
-            start2++;
-        }
-        else start1++;
+    long long  divide(vector<int>&nums,long long  low,long long  high){
+        if(high<=low)return 0;
+        long long  mid=(low+high)/2;
+        long long  a1=divide(nums,low,mid);
+        long long  a2=divide(nums,mid+1,high);
+        long long  a3=merge(nums,low,mid,high);
+        // cout<<"A-"<<a1+a2+a3<<endl;
+        return a1+a2+a3;
     }
-    vector<int>new_a;
-    start1=i,start2=mid+1;
-    while(start1<mid+1&&start2<=j){
-        if(a[start1]<=a[start2]){
-            new_a.push_back(a[start1]);
-            start1++;
+    long long  merge(vector<int>&nums,long long  low,long long  mid,long long  high){
+        // cout<<low<<' '<<mid<<' '<<high<<endl;
+        sort(nums.begin()+low,nums.begin()+mid+1);
+        // for(long long  i=0;i<=mid;i++)cout<<nums[i]<<" ";
+        // cout<<endl;
+        long long  ans=0;
+        for(long long  i=mid+1;i<=high;i++){
+            // cout<<nums[i]<<' ';
+            long long  index=upper_bound(nums.begin()+low,nums.begin()+mid,2*1LL*nums[i])-nums.begin()-low;
+            if(index+low<=mid&&nums[index+low]>2*1LL*nums[i]){
+                ans+=(mid-index-low+1);
+            }
         }
-        else{
-           new_a.push_back(a[start2]);
-            start2++;
-        }
+        // cout<<endl;
+        return ans;
     }
-    while(start1<mid+1)new_a.push_back(a[start1++]);
-    while(start2<=j)new_a.push_back(a[start2++]);
-    int w=0;
-    for (int z = i; z <= j; z++) {
-        a[z]=new_a[w++];
-    }
-    return ans+x+y;
-}
-    int reversePairs(vector<int>& nums) {
-        return split_check(nums,0,nums.size()-1);
+    long long  reversePairs(vector<int>& nums) {
+        return divide(nums,0,nums.size()-1);
     }
 };
