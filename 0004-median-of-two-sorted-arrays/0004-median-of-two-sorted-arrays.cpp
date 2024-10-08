@@ -1,41 +1,33 @@
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
-        double ans=0;
-        int size1=nums1.size();
-        int size2=nums2.size();
-        int median1=((size1+size2)/2) ;
-        int median2=-1;
-        if((size1+size2)%2==0){median1--;median2=median1+1;}
-        int i=0,j=0,index=0,x=1;
-        while(j+i<=size1+size2-1){
-            if(index==median1){
-                
-                if(i<size1 && j<size2){
-                    ans=(ans+min(nums1[i],nums2[j]))/x;
-                }
-                else if(i<size1){
-                    ans=(ans+nums1[i])/x;
-                }
-                else if(j<size2){
-                    ans=(ans+nums2[j])/x;
-                }
-                if(median2!=-1 ){
-                    median1=median2;
-                    median2=-1;
-                    x++;
-                }
-                else{
-                    break;
-                }
-
+        int n=nums1.size(),m=nums2.size();
+        if(n>m)return findMedianSortedArrays(nums2,nums1);
+        int low=0,high=n;
+        double m1=0,m2=0;
+        int total=(n+m)/2 +(n+m)%2;
+        while(low<=high){
+            int mid1=(low+high)/2,mid2=total-mid1;
+            int l1=mid1-1<0?INT_MIN:nums1[mid1-1],r1=mid1==n?INT_MAX:nums1[mid1];
+            int l2= mid2-1<0?INT_MIN:nums2[mid2-1],r2=mid2==m?INT_MAX:nums2[mid2];
+            bool lhs=l1<=r2?true:false;
+            bool rhs=l2<=r1?true:false;
+            cout<<low<<"  "<<high<<endl;
+            cout<<l1<<" "<<r1<<endl;
+            cout<<l2<<" "<<r2<<endl;
+            if(lhs&&rhs){
+                m1=1.0*max(l1,l2);
+                m2=1.0*min(r1,r2);
+                break;
             }
-            if(i<size1 && j<size2 && nums1[i]<nums2[j]){i++;}
-            else if(i<size1 && j<size2 && nums1[i]>nums2[j]){j++;}
-            else if(j<size2){j++;}
-            else{i++;}
-            index++;
+            if(lhs){
+                low=mid1+1;
+            }
+            else{
+                high=mid1-1;
+            }
         }
-        return ans;
+        if((n+m)&1)return m1;
+        return (m1+m2)/2.0;
     }
 };
