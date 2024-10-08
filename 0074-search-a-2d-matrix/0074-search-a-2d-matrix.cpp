@@ -1,12 +1,15 @@
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
-         int row=0;
-         while(row<matrix.size()){
-            auto i=matrix[row];
-            auto it=lower_bound(i.begin(),i.end(),target);
-            if(it!=i.end()&&i[it-i.begin()]==target)return true;
-            row++;
+         int n=matrix.size(),m=matrix[0].size();
+         int low=0,high=n*m-1;
+         while(low<=high){
+            int mid=(low+high)/2;
+            int row=mid/m,col=mid%m;
+            cout<<mid<<' '<<row<<' '<<col<<endl;
+            if(matrix[row][col]==target)return true;
+            else if(matrix[row][col]>target)high=mid-1;
+            else low=mid+1;
          }
          return false;
     }
