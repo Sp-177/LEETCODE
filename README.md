@@ -74,6 +74,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0162-find-peak-element](https://github.com/Sp-177/LEETCODE/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/Sp-177/LEETCODE/tree/master/0169-majority-element) |
 | [0213-house-robber-ii](https://github.com/Sp-177/LEETCODE/tree/master/0213-house-robber-ii) |
+| [0240-search-a-2d-matrix-ii](https://github.com/Sp-177/LEETCODE/tree/master/0240-search-a-2d-matrix-ii) |
 | [0435-non-overlapping-intervals](https://github.com/Sp-177/LEETCODE/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Sp-177/LEETCODE/tree/master/0455-assign-cookies) |
 | [0493-reverse-pairs](https://github.com/Sp-177/LEETCODE/tree/master/0493-reverse-pairs) |
@@ -107,6 +108,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Sp-177/LEETCODE/tree/master/0004-median-of-two-sorted-arrays) |
 | [0169-majority-element](https://github.com/Sp-177/LEETCODE/tree/master/0169-majority-element) |
+| [0240-search-a-2d-matrix-ii](https://github.com/Sp-177/LEETCODE/tree/master/0240-search-a-2d-matrix-ii) |
 | [0493-reverse-pairs](https://github.com/Sp-177/LEETCODE/tree/master/0493-reverse-pairs) |
 ## Sorting
 |  |
@@ -136,6 +138,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0004-median-of-two-sorted-arrays](https://github.com/Sp-177/LEETCODE/tree/master/0004-median-of-two-sorted-arrays) |
 | [0074-search-a-2d-matrix](https://github.com/Sp-177/LEETCODE/tree/master/0074-search-a-2d-matrix) |
 | [0162-find-peak-element](https://github.com/Sp-177/LEETCODE/tree/master/0162-find-peak-element) |
+| [0240-search-a-2d-matrix-ii](https://github.com/Sp-177/LEETCODE/tree/master/0240-search-a-2d-matrix-ii) |
 | [0493-reverse-pairs](https://github.com/Sp-177/LEETCODE/tree/master/0493-reverse-pairs) |
 | [1046-max-consecutive-ones-iii](https://github.com/Sp-177/LEETCODE/tree/master/1046-max-consecutive-ones-iii) |
 | [1753-path-with-minimum-effort](https://github.com/Sp-177/LEETCODE/tree/master/1753-path-with-minimum-effort) |
@@ -238,6 +241,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/Sp-177/LEETCODE/tree/master/0074-search-a-2d-matrix) |
 | [0130-surrounded-regions](https://github.com/Sp-177/LEETCODE/tree/master/0130-surrounded-regions) |
+| [0240-search-a-2d-matrix-ii](https://github.com/Sp-177/LEETCODE/tree/master/0240-search-a-2d-matrix-ii) |
 | [0542-01-matrix](https://github.com/Sp-177/LEETCODE/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Sp-177/LEETCODE/tree/master/0733-flood-fill) |
 | [0854-making-a-large-island](https://github.com/Sp-177/LEETCODE/tree/master/0854-making-a-large-island) |
