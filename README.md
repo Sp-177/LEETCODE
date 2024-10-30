@@ -99,6 +99,7 @@ Feel free to customize this README further to suit your preferences and showcase
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Sp-177/LEETCODE/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0076-minimum-window-substring](https://github.com/Sp-177/LEETCODE/tree/master/0076-minimum-window-substring) |
 | [0127-word-ladder](https://github.com/Sp-177/LEETCODE/tree/master/0127-word-ladder) |
 | [0169-majority-element](https://github.com/Sp-177/LEETCODE/tree/master/0169-majority-element) |
 | [0424-longest-repeating-character-replacement](https://github.com/Sp-177/LEETCODE/tree/master/0424-longest-repeating-character-replacement) |
@@ -152,6 +153,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Sp-177/LEETCODE/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/Sp-177/LEETCODE/tree/master/0005-longest-palindromic-substring) |
+| [0076-minimum-window-substring](https://github.com/Sp-177/LEETCODE/tree/master/0076-minimum-window-substring) |
 | [0127-word-ladder](https://github.com/Sp-177/LEETCODE/tree/master/0127-word-ladder) |
 | [0424-longest-repeating-character-replacement](https://github.com/Sp-177/LEETCODE/tree/master/0424-longest-repeating-character-replacement) |
 | [0647-palindromic-substrings](https://github.com/Sp-177/LEETCODE/tree/master/0647-palindromic-substrings) |
@@ -174,6 +176,7 @@ Feel free to customize this README further to suit your preferences and showcase
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Sp-177/LEETCODE/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0076-minimum-window-substring](https://github.com/Sp-177/LEETCODE/tree/master/0076-minimum-window-substring) |
 | [0424-longest-repeating-character-replacement](https://github.com/Sp-177/LEETCODE/tree/master/0424-longest-repeating-character-replacement) |
 | [0940-fruit-into-baskets](https://github.com/Sp-177/LEETCODE/tree/master/0940-fruit-into-baskets) |
 | [1046-max-consecutive-ones-iii](https://github.com/Sp-177/LEETCODE/tree/master/1046-max-consecutive-ones-iii) |
