@@ -2,20 +2,27 @@ class Solution {
 public:
     int characterReplacement(string s, int k) {
         map<char,int>m;
-        int i=0,j=0,ans=0,n=s.size();
-        while(i<n&&j<n){
-            m[s[j]]++;
-            int maxf=0;
-            
-            for(auto k:m){maxf=max(maxf,k.second);}
-            while(j-i+1-maxf>k){
-                m[s[i]]--;
-                 for(auto k:m){maxf=max(maxf,k.second);}
-                i++;
+        int ans=0,l=0,r=0;
+        while(r<s.size()){
+            m[s[r]]++;
+            int maxi=0,sum=0;
+            for(auto i:m){
+                sum+=i.second;
+                maxi=max(maxi,i.second);
             }
-            ans=max(j-i+1,ans);
-            j++;
-        }
-        return ans;
+            while(k<sum-maxi){
+                m[s[l]]--;
+                if(m[s[l]]==0){m.erase(s[l]);}
+                sum=0,maxi=0;
+                 for(auto i:m){
+                sum+=i.second;
+                maxi=max(maxi,i.second);
+            }
+                l++;
+            }
+            
+            ans=max(ans,r-l+1);
+            r++;
+        }return ans;
     }
 };
