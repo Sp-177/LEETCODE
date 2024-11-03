@@ -84,6 +84,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0854-making-a-large-island](https://github.com/Sp-177/LEETCODE/tree/master/0854-making-a-large-island) |
 | [0890-lemonade-change](https://github.com/Sp-177/LEETCODE/tree/master/0890-lemonade-change) |
 | [0940-fruit-into-baskets](https://github.com/Sp-177/LEETCODE/tree/master/0940-fruit-into-baskets) |
+| [0966-binary-subarrays-with-sum](https://github.com/Sp-177/LEETCODE/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Sp-177/LEETCODE/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/Sp-177/LEETCODE/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/Sp-177/LEETCODE/tree/master/1046-max-consecutive-ones-iii) |
@@ -106,6 +107,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0169-majority-element](https://github.com/Sp-177/LEETCODE/tree/master/0169-majority-element) |
 | [0424-longest-repeating-character-replacement](https://github.com/Sp-177/LEETCODE/tree/master/0424-longest-repeating-character-replacement) |
 | [0940-fruit-into-baskets](https://github.com/Sp-177/LEETCODE/tree/master/0940-fruit-into-baskets) |
+| [0966-binary-subarrays-with-sum](https://github.com/Sp-177/LEETCODE/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Sp-177/LEETCODE/tree/master/1034-subarrays-with-k-different-integers) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Sp-177/LEETCODE/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Sp-177/LEETCODE/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -184,6 +186,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0076-minimum-window-substring](https://github.com/Sp-177/LEETCODE/tree/master/0076-minimum-window-substring) |
 | [0424-longest-repeating-character-replacement](https://github.com/Sp-177/LEETCODE/tree/master/0424-longest-repeating-character-replacement) |
 | [0940-fruit-into-baskets](https://github.com/Sp-177/LEETCODE/tree/master/0940-fruit-into-baskets) |
+| [0966-binary-subarrays-with-sum](https://github.com/Sp-177/LEETCODE/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Sp-177/LEETCODE/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/Sp-177/LEETCODE/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Sp-177/LEETCODE/tree/master/1370-count-number-of-nice-subarrays) |
@@ -281,6 +284,7 @@ Feel free to customize this README further to suit your preferences and showcase
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/Sp-177/LEETCODE/tree/master/0410-split-array-largest-sum) |
+| [0966-binary-subarrays-with-sum](https://github.com/Sp-177/LEETCODE/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Sp-177/LEETCODE/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Sp-177/LEETCODE/tree/master/1370-count-number-of-nice-subarrays) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Sp-177/LEETCODE/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
