@@ -1,19 +1,17 @@
 class Solution {
 public:
-    int numberOfSubstrings(string s) {
-      int ans=0,i=0,j=0,n=s.size();
-      map<char,int>m;
-      while(i<n&&j<n){
-        m[s[j]]++;
-        while(m.size()==3){
-            ans+=n-j;
-            m[s[i]]--;
-            if(m[s[i]]<=0){m.erase(s[i]);}
-            i++;
-        }
-        j++;
-      }
-    return ans;
 
+    int numberOfSubstrings(string s) {
+    map<char,int>m;int ans=0,n=s.size(),l=0;
+    for(int i=0;i<n;i++){
+        m[s[i]]++;
+        while(m.size()==3){
+            ans+=n-i;
+            m[s[l]]--;
+            if(m[s[l]]==0)m.erase(s[l]);
+            l++;
+        }
+        }    
+        return ans;
     }
 };
