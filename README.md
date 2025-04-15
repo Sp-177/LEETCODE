@@ -95,6 +95,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [1656-count-good-triplets](https://github.com/Sp-177/LEETCODE/tree/master/1656-count-good-triplets) |
 | [1753-path-with-minimum-effort](https://github.com/Sp-177/LEETCODE/tree/master/1753-path-with-minimum-effort) |
 | [2047-find-a-peak-element-ii](https://github.com/Sp-177/LEETCODE/tree/master/2047-find-a-peak-element-ii) |
+| [2280-count-good-triplets-in-an-array](https://github.com/Sp-177/LEETCODE/tree/master/2280-count-good-triplets-in-an-array) |
 | [2737-row-with-maximum-ones](https://github.com/Sp-177/LEETCODE/tree/master/2737-row-with-maximum-ones) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Sp-177/LEETCODE/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [3153-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/Sp-177/LEETCODE/tree/master/3153-apply-operations-on-array-to-maximize-sum-of-squares) |
@@ -121,6 +122,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0169-majority-element](https://github.com/Sp-177/LEETCODE/tree/master/0169-majority-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Sp-177/LEETCODE/tree/master/0240-search-a-2d-matrix-ii) |
 | [0493-reverse-pairs](https://github.com/Sp-177/LEETCODE/tree/master/0493-reverse-pairs) |
+| [2280-count-good-triplets-in-an-array](https://github.com/Sp-177/LEETCODE/tree/master/2280-count-good-triplets-in-an-array) |
 ## Sorting
 |  |
 | ------- |
@@ -156,6 +158,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [1046-max-consecutive-ones-iii](https://github.com/Sp-177/LEETCODE/tree/master/1046-max-consecutive-ones-iii) |
 | [1753-path-with-minimum-effort](https://github.com/Sp-177/LEETCODE/tree/master/1753-path-with-minimum-effort) |
 | [2047-find-a-peak-element-ii](https://github.com/Sp-177/LEETCODE/tree/master/2047-find-a-peak-element-ii) |
+| [2280-count-good-triplets-in-an-array](https://github.com/Sp-177/LEETCODE/tree/master/2280-count-good-triplets-in-an-array) |
 ## String
 |  |
 | ------- |
@@ -297,18 +300,22 @@ Feel free to customize this README further to suit your preferences and showcase
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/Sp-177/LEETCODE/tree/master/0493-reverse-pairs) |
+| [2280-count-good-triplets-in-an-array](https://github.com/Sp-177/LEETCODE/tree/master/2280-count-good-triplets-in-an-array) |
 ## Segment Tree
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/Sp-177/LEETCODE/tree/master/0493-reverse-pairs) |
+| [2280-count-good-triplets-in-an-array](https://github.com/Sp-177/LEETCODE/tree/master/2280-count-good-triplets-in-an-array) |
 ## Merge Sort
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/Sp-177/LEETCODE/tree/master/0493-reverse-pairs) |
+| [2280-count-good-triplets-in-an-array](https://github.com/Sp-177/LEETCODE/tree/master/2280-count-good-triplets-in-an-array) |
 ## Ordered Set
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/Sp-177/LEETCODE/tree/master/0493-reverse-pairs) |
+| [2280-count-good-triplets-in-an-array](https://github.com/Sp-177/LEETCODE/tree/master/2280-count-good-triplets-in-an-array) |
 ## Trie
 |  |
 | ------- |
