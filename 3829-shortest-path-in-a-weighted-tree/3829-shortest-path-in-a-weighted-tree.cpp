@@ -1,80 +1,122 @@
-struct Fenwick {
+#include <bits/stdc++.h>
+using namespace std;
+
+// Fast I/O
+#define FAST_IO ios::sync_with_stdio(false); cin.tie(0); cout.tie(0)
+
+const int MAXN = 2e5 + 5;
+
+vector<pair<int, int>> adj[MAXN];       // Adjacency list: node -> (child, weight)
+vector<int> et;                         // Euler Tour array
+vector<int> indexes[MAXN];              // Entry and exit times in Euler Tour
+int timer = 0;
+
+// Segment Tree Class
+class SegmentTree {
+private:
+    vector<int> tree;
     int n;
-    vector<long long> BIT;
-    Fenwick(int n) : n(n), BIT(n+1, 0) {}
-    void update(int i, long long delta) { for (; i <= n; i += i & -i) BIT[i] += delta; }
-    long long query(int i) {
-        long long sum = 0;
-        for (; i; i -= i & -i) sum += BIT[i];
-        return sum;
+
+    void build(const vector<int>& arr, int node, int start, int end) {
+        if (start == end) {
+            tree[node] = arr[start];
+            return;
+        }
+        int mid = (start + end) >> 1;
+        build(arr, 2 * node + 1, start, mid);
+        build(arr, 2 * node + 2, mid + 1, end);
+        tree[node] = tree[2 * node + 1] + tree[2 * node + 2];
+    }
+
+    void update(int node, int start, int end, int idx, int val) {
+        if (start == end) {
+            tree[node] = val;
+            return;
+        }
+        int mid = (start + end) >> 1;
+        if (idx <= mid)
+            update(2 * node + 1, start, mid, idx, val);
+        else
+            update(2 * node + 2, mid + 1, end, idx, val);
+        tree[node] = tree[2 * node + 1] + tree[2 * node + 2];
+    }
+
+    int query(int node, int start, int end, int l, int r) {
+        if (r < start || end < l) return 0;
+        if (l <= start && end <= r) return tree[node];
+        int mid = (start + end) >> 1;
+        return query(2 * node + 1, start, mid, l, r) +
+               query(2 * node + 2, mid + 1, end, l, r);
+    }
+
+public:
+    SegmentTree(const vector<int>& arr) {
+        n = arr.size();
+        tree.resize(4 * n);
+        build(arr, 0, 0, n - 1);
+    }
+
+    void update(int idx, int val) {
+        update(0, 0, n - 1, idx, val);
+    }
+
+    int query(int l, int r) {
+        return query(0, 0, n - 1, l, r);
     }
 };
 
-struct Tree {
-int N, root = 1;
-vector<vector<pair<int,int>>> adj;
-vector<int> tin, tout, par, depth;
-vector<long long> rootD;
-int timer = 0;
-Tree(int _N) {
-    N = _N;
-    adj.resize(N + 1);
-    tin.resize(N + 1);
-    tout.resize(N + 1);
-    par.resize(N + 1);
-    depth.resize(N + 1);
-    rootD.resize(N + 1);
+// DFS Function
+void dfs(int node, int parent) {
+    indexes[node].push_back(timer++);
+    for (auto& [child, wt] : adj[node]) {
+        if (child == parent) continue;
+        et.push_back(wt);
+        dfs(child, node);
+        et.push_back(-wt);
+    }
+    indexes[node].push_back(timer++);
 }
-void add_edge(int u, int v, int w) {
-    adj[u].push_back({v, w});
-    adj[v].push_back({u, w});
-}
-void init(int rt = 1) {
-    root = rt; 
-    timer = 0;
-    function<void(int,int,long long)> dfs = [&](int u, int p, long long dist) {
-        par[u] = p;
-        rootD[u] = dist;
-        tin[u] = ++timer;
-        depth[u] = depth[p] + 1;
-        for (auto &[v,w] : adj[u]) 
-            if (v != p) 
-                dfs(v, u, dist + w);
-        tout[u] = timer;
-    }; dfs(root, 0, 0);
-    //DFS Preprocessing for calcualting parent , rootD , and tin and tout times 
-}
-} ;
-
-
 
 class Solution {
 public:
-vector<int> treeQueries(int n, vector<vector<int>>& edges, vector<vector<int>>& queries) {
-    Tree tree(n);
-    vector<int> ans;
-    for (auto &e : edges) tree.add_edge(e[0], e[1], e[2]);
-    tree.init(1);
-    Fenwick F(tree.timer);
-    vector<int> up(n + 1, 0);
-    for (int i = 2; i <= n; ++i) 
-        for (auto & [u,w]: tree.adj[i]) 
-            if (u == tree.par[i])  up[i] = w ;
-    for (auto &q : queries) {
-        if (q[0] == 1) {
-            int u = q[1], v = q[2] , c = v ;
-            if (tree.par[u] == v) c = u ; // c = child
-            // Range Update in Fenwick Tree , the change in weight
-            // delta = q[3] - up[c] 
-            // we add this value at tin[child]
-            // and subtract at tout[child] + 1 
-            F.update(tree.tin[c], q[3] - up[c]);
-            F.update(tree.tout[c] + 1,up[c] - q[3]);
-            up[c] = q[3] ;
-        } else 
-            ans.push_back((int)(tree.rootD[q[1]] + F.query(tree.tin[q[1]]))) ;
- //                             intial weight   + changes done in weights
+    vector<int> treeQueries(int n, vector<vector<int>>& edges, vector<vector<int>>& queries) {
+        FAST_IO;
+
+        // Reset for multiple test cases (optional if needed)
+        for (int i = 0; i <= n; ++i) {
+            adj[i].clear();
+            indexes[i].clear();
+        }
+        et.clear();
+        timer = 0;
+
+        // Build tree
+        for (auto& e : edges) {
+            int u = e[0], v = e[1], w = e[2];
+            adj[u].emplace_back(v, w);
+            adj[v].emplace_back(u, w);
+        }
+
+        et.push_back(0);  // initial
+        dfs(1, 0);
+        et.push_back(0);  // final
+
+        SegmentTree seg(et);
+        vector<int> ans;
+
+        for (auto& q : queries) {
+            if (q[0] == 2) {
+                int idx = indexes[q[1]][0];
+                ans.push_back(seg.query(0, idx));
+            } else {
+                int u = q[1], v = q[2], new_wt = q[3];
+                int child = (indexes[u][0] > indexes[v][0]) ? u : v;
+                int in = indexes[child][0];
+                int out = indexes[child][1];
+                seg.update(in, new_wt);
+                seg.update(out, -new_wt);
+            }
+        }
+        return ans;
     }
-    return ans;
-}
 };
