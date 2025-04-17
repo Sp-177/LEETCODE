@@ -102,6 +102,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Sp-177/LEETCODE/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [3153-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/Sp-177/LEETCODE/tree/master/3153-apply-operations-on-array-to-maximize-sum-of-squares) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Sp-177/LEETCODE/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
+| [3829-shortest-path-in-a-weighted-tree](https://github.com/Sp-177/LEETCODE/tree/master/3829-shortest-path-in-a-weighted-tree) |
 ## Hash Table
 |  |
 | ------- |
@@ -235,6 +236,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0854-making-a-large-island](https://github.com/Sp-177/LEETCODE/tree/master/0854-making-a-large-island) |
 | [1073-number-of-enclaves](https://github.com/Sp-177/LEETCODE/tree/master/1073-number-of-enclaves) |
 | [1753-path-with-minimum-effort](https://github.com/Sp-177/LEETCODE/tree/master/1753-path-with-minimum-effort) |
+| [3829-shortest-path-in-a-weighted-tree](https://github.com/Sp-177/LEETCODE/tree/master/3829-shortest-path-in-a-weighted-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -305,11 +307,13 @@ Feel free to customize this README further to suit your preferences and showcase
 | ------- |
 | [0493-reverse-pairs](https://github.com/Sp-177/LEETCODE/tree/master/0493-reverse-pairs) |
 | [2280-count-good-triplets-in-an-array](https://github.com/Sp-177/LEETCODE/tree/master/2280-count-good-triplets-in-an-array) |
+| [3829-shortest-path-in-a-weighted-tree](https://github.com/Sp-177/LEETCODE/tree/master/3829-shortest-path-in-a-weighted-tree) |
 ## Segment Tree
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/Sp-177/LEETCODE/tree/master/0493-reverse-pairs) |
 | [2280-count-good-triplets-in-an-array](https://github.com/Sp-177/LEETCODE/tree/master/2280-count-good-triplets-in-an-array) |
+| [3829-shortest-path-in-a-weighted-tree](https://github.com/Sp-177/LEETCODE/tree/master/3829-shortest-path-in-a-weighted-tree) |
 ## Merge Sort
 |  |
 | ------- |
@@ -332,4 +336,8 @@ Feel free to customize this README further to suit your preferences and showcase
 |  |
 | ------- |
 | [1656-count-good-triplets](https://github.com/Sp-177/LEETCODE/tree/master/1656-count-good-triplets) |
+## Tree
+|  |
+| ------- |
+| [3829-shortest-path-in-a-weighted-tree](https://github.com/Sp-177/LEETCODE/tree/master/3829-shortest-path-in-a-weighted-tree) |
 <!---LeetCode Topics End-->
