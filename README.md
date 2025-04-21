@@ -96,6 +96,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [1656-count-good-triplets](https://github.com/Sp-177/LEETCODE/tree/master/1656-count-good-triplets) |
 | [1753-path-with-minimum-effort](https://github.com/Sp-177/LEETCODE/tree/master/1753-path-with-minimum-effort) |
 | [2047-find-a-peak-element-ii](https://github.com/Sp-177/LEETCODE/tree/master/2047-find-a-peak-element-ii) |
+| [2249-count-the-hidden-sequences](https://github.com/Sp-177/LEETCODE/tree/master/2249-count-the-hidden-sequences) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/Sp-177/LEETCODE/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
 | [2280-count-good-triplets-in-an-array](https://github.com/Sp-177/LEETCODE/tree/master/2280-count-good-triplets-in-an-array) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/Sp-177/LEETCODE/tree/master/2626-count-the-number-of-good-subarrays) |
@@ -306,6 +307,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [1046-max-consecutive-ones-iii](https://github.com/Sp-177/LEETCODE/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Sp-177/LEETCODE/tree/master/1370-count-number-of-nice-subarrays) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Sp-177/LEETCODE/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [2249-count-the-hidden-sequences](https://github.com/Sp-177/LEETCODE/tree/master/2249-count-the-hidden-sequences) |
 ## Bit Manipulation
 |  |
 | ------- |
