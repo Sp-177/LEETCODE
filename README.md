@@ -120,6 +120,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [1034-subarrays-with-k-different-integers](https://github.com/Sp-177/LEETCODE/tree/master/1034-subarrays-with-k-different-integers) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Sp-177/LEETCODE/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Sp-177/LEETCODE/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1500-count-largest-group](https://github.com/Sp-177/LEETCODE/tree/master/1500-count-largest-group) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/Sp-177/LEETCODE/tree/master/2626-count-the-number-of-good-subarrays) |
 | [3153-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/Sp-177/LEETCODE/tree/master/3153-apply-operations-on-array-to-maximize-sum-of-squares) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Sp-177/LEETCODE/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
@@ -344,6 +345,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | ------- |
 | [0797-rabbits-in-forest](https://github.com/Sp-177/LEETCODE/tree/master/0797-rabbits-in-forest) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Sp-177/LEETCODE/tree/master/1370-count-number-of-nice-subarrays) |
+| [1500-count-largest-group](https://github.com/Sp-177/LEETCODE/tree/master/1500-count-largest-group) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Sp-177/LEETCODE/tree/master/2415-count-the-number-of-ideal-arrays) |
 ## Enumeration
 |  |
