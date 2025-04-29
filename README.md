@@ -107,6 +107,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Sp-177/LEETCODE/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [2915-count-of-interesting-subarrays](https://github.com/Sp-177/LEETCODE/tree/master/2915-count-of-interesting-subarrays) |
 | [3153-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/Sp-177/LEETCODE/tree/master/3153-apply-operations-on-array-to-maximize-sum-of-squares) |
+| [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Sp-177/LEETCODE/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Sp-177/LEETCODE/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/Sp-177/LEETCODE/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3829-shortest-path-in-a-weighted-tree](https://github.com/Sp-177/LEETCODE/tree/master/3829-shortest-path-in-a-weighted-tree) |
@@ -219,6 +220,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/Sp-177/LEETCODE/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/Sp-177/LEETCODE/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/Sp-177/LEETCODE/tree/master/2626-count-the-number-of-good-subarrays) |
+| [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Sp-177/LEETCODE/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 ## Design
 |  |
 | ------- |
