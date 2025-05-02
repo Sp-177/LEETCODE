@@ -1,40 +1,42 @@
 class Solution {
 public:
-    int maxTaskAssign(vector<int>& tasks, vector<int>& workers, int pills, int strength) {
-        int left = 0, right = min(tasks.size(), workers.size());
-
-        sort(tasks.begin(), tasks.end());
-        sort(workers.begin(), workers.end());
-
-        while(left < right) {
-            int mid = (left + right + 1) / 2;
-            int usedPills = 0;
-            multiset<int> workersFree(workers.end() - mid, workers.end());
-
-            bool canAssign = true;
-            for(int i = mid - 1; i >= 0; --i) {
-                auto it = prev(workersFree.end());
-
-                if(*it < tasks[i]) {
-                    it = workersFree.lower_bound(tasks[i] - strength);
-                    if(it == workersFree.end()) {
-                        canAssign = false;
-                        break;
-                    }
-                    ++usedPills;
-                    if(usedPills > pills) {
-                        canAssign = false;
-                        break;
-                    }
-                }
-                workersFree.erase(it);
+    int maxTaskAssign(vector<int>& t, vector<int>& w, int p, int s) {
+        sort(t.begin(),t.end());
+        sort(w.begin(),w.end());
+        int low=0,high=t.size();
+        for(int i:t)cout<<i<<" ";
+        cout<<endl;
+        for(int i:w)cout<<i<<" ";
+        cout<<endl;
+        int m=w.size(),n=t.size();
+        auto predicate_func=[&](int ans)->bool{
+            int index=ans-1;
+            int k=p;
+            multiset<int>ms;
+            for(int i=m-1;i>=max(0,m-ans);i--){
+                ms.insert(w[i]);
             }
-
-            if(canAssign)
-                left = mid;
-            else
-                right = mid - 1;
+            for(int i=index;i>=0;i--){
+                int req=t[i];
+                auto it=ms.lower_bound(req);
+                if(it !=ms.end()){
+                    ms.erase(it);
+                }
+                else{
+                    if(k<=0)return false;
+                    auto it=ms.lower_bound(req-s);
+                    if(it!=ms.end())ms.erase(it);
+                    else return false;
+                    k--;
+                }
+            }
+            return true;
+        };
+        while(low<=high){
+            int mid=(low+high)>>1;
+            if(predicate_func(mid))low=mid+1;
+            else high=mid-1;
         }
-        return left;
+        return high;
     }
 };
