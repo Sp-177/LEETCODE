@@ -73,6 +73,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0130-surrounded-regions](https://github.com/Sp-177/LEETCODE/tree/master/0130-surrounded-regions) |
 | [0162-find-peak-element](https://github.com/Sp-177/LEETCODE/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/Sp-177/LEETCODE/tree/master/0169-majority-element) |
+| [0212-word-search-ii](https://github.com/Sp-177/LEETCODE/tree/master/0212-word-search-ii) |
 | [0213-house-robber-ii](https://github.com/Sp-177/LEETCODE/tree/master/0213-house-robber-ii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Sp-177/LEETCODE/tree/master/0240-search-a-2d-matrix-ii) |
 | [0410-split-array-largest-sum](https://github.com/Sp-177/LEETCODE/tree/master/0410-split-array-largest-sum) |
@@ -193,6 +194,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0038-count-and-say](https://github.com/Sp-177/LEETCODE/tree/master/0038-count-and-say) |
 | [0076-minimum-window-substring](https://github.com/Sp-177/LEETCODE/tree/master/0076-minimum-window-substring) |
 | [0127-word-ladder](https://github.com/Sp-177/LEETCODE/tree/master/0127-word-ladder) |
+| [0212-word-search-ii](https://github.com/Sp-177/LEETCODE/tree/master/0212-word-search-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/Sp-177/LEETCODE/tree/master/0424-longest-repeating-character-replacement) |
 | [0647-palindromic-substrings](https://github.com/Sp-177/LEETCODE/tree/master/0647-palindromic-substrings) |
 | [0868-push-dominoes](https://github.com/Sp-177/LEETCODE/tree/master/0868-push-dominoes) |
@@ -303,6 +305,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/Sp-177/LEETCODE/tree/master/0074-search-a-2d-matrix) |
 | [0130-surrounded-regions](https://github.com/Sp-177/LEETCODE/tree/master/0130-surrounded-regions) |
+| [0212-word-search-ii](https://github.com/Sp-177/LEETCODE/tree/master/0212-word-search-ii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Sp-177/LEETCODE/tree/master/0240-search-a-2d-matrix-ii) |
 | [0542-01-matrix](https://github.com/Sp-177/LEETCODE/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Sp-177/LEETCODE/tree/master/0733-flood-fill) |
@@ -362,6 +365,7 @@ Feel free to customize this README further to suit your preferences and showcase
 ## Trie
 |  |
 | ------- |
+| [0212-word-search-ii](https://github.com/Sp-177/LEETCODE/tree/master/0212-word-search-ii) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Sp-177/LEETCODE/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Math
 |  |
@@ -401,4 +405,8 @@ Feel free to customize this README further to suit your preferences and showcase
 |  |
 | ------- |
 | [2048-build-array-from-permutation](https://github.com/Sp-177/LEETCODE/tree/master/2048-build-array-from-permutation) |
+## Backtracking
+|  |
+| ------- |
+| [0212-word-search-ii](https://github.com/Sp-177/LEETCODE/tree/master/0212-word-search-ii) |
 <!---LeetCode Topics End-->
