@@ -1,33 +1,40 @@
 class Solution {
 public:
-    double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
-        int n=nums1.size(),m=nums2.size();
-        if(n>m)return findMedianSortedArrays(nums2,nums1);
-        int low=0,high=n;
-        double m1=0,m2=0;
-        int total=(n+m)/2 +(n+m)%2;
-        while(low<=high){
-            int mid1=(low+high)/2,mid2=total-mid1;
-            int l1=mid1-1<0?INT_MIN:nums1[mid1-1],r1=mid1==n?INT_MAX:nums1[mid1];
-            int l2= mid2-1<0?INT_MIN:nums2[mid2-1],r2=mid2==m?INT_MAX:nums2[mid2];
-            bool lhs=l1<=r2?true:false;
-            bool rhs=l2<=r1?true:false;
-            cout<<low<<"  "<<high<<endl;
-            cout<<l1<<" "<<r1<<endl;
-            cout<<l2<<" "<<r2<<endl;
-            if(lhs&&rhs){
-                m1=1.0*max(l1,l2);
-                m2=1.0*min(r1,r2);
+    double find(vector<int>&a,vector<int>&b){
+        int n=a.size(),m=b.size();
+        int total=n+m;
+        int half=(total+1)>>1;
+        int left=0,right=m;
+        int a1=0,a2=0;
+        while(left<=right){
+            int part=(left+right)>>1;
+            int num_elem_left_first=part;
+            int num_elem_left_second=half-num_elem_left_first;
+            int index2=num_elem_left_second-1;
+            int l1=(part-1>=0)?b[part-1]:INT_MIN,l2=index2>=0?a[index2]:INT_MIN;
+            int r1=(part<m)?b[part]:INT_MAX,r2=(index2+1<n)?a[index2+1]:INT_MAX;
+            // cout<<l1<<"     "<<r1<<endl<<l2<<"    "<<r2<<endl;
+            if(l1<=r2&&l2<=r1){
+                a1=max(l1,l2);
+                a2=min(r1,r2);
                 break;
             }
-            if(lhs){
-                low=mid1+1;
-            }
+            else if(l1>r2){
+                right=part-1;
+            }   
             else{
-                high=mid1-1;
+                left=part+1;
             }
+           
         }
-        if((n+m)&1)return m1;
-        return (m1+m2)/2.0;
+        if(total&1)return a1;
+        return (a1*1.0 +a2*1.0)/(2.0);
+
+    }
+    double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
+        if(nums1.size()<nums2.size()){
+            return find(nums2,nums1);
+        }
+        return find(nums1,nums2);
     }
 };
