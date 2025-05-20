@@ -77,6 +77,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0213-house-robber-ii](https://github.com/Sp-177/LEETCODE/tree/master/0213-house-robber-ii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Sp-177/LEETCODE/tree/master/0240-search-a-2d-matrix-ii) |
 | [0410-split-array-largest-sum](https://github.com/Sp-177/LEETCODE/tree/master/0410-split-array-largest-sum) |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Sp-177/LEETCODE/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0435-non-overlapping-intervals](https://github.com/Sp-177/LEETCODE/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Sp-177/LEETCODE/tree/master/0455-assign-cookies) |
 | [0493-reverse-pairs](https://github.com/Sp-177/LEETCODE/tree/master/0493-reverse-pairs) |
@@ -126,6 +127,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0127-word-ladder](https://github.com/Sp-177/LEETCODE/tree/master/0127-word-ladder) |
 | [0169-majority-element](https://github.com/Sp-177/LEETCODE/tree/master/0169-majority-element) |
 | [0208-implement-trie-prefix-tree](https://github.com/Sp-177/LEETCODE/tree/master/0208-implement-trie-prefix-tree) |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Sp-177/LEETCODE/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0424-longest-repeating-character-replacement](https://github.com/Sp-177/LEETCODE/tree/master/0424-longest-repeating-character-replacement) |
 | [0677-map-sum-pairs](https://github.com/Sp-177/LEETCODE/tree/master/0677-map-sum-pairs) |
 | [0720-longest-word-in-dictionary](https://github.com/Sp-177/LEETCODE/tree/master/0720-longest-word-in-dictionary) |
@@ -352,6 +354,7 @@ Feel free to customize this README further to suit your preferences and showcase
 ## Bit Manipulation
 |  |
 | ------- |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Sp-177/LEETCODE/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [3153-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/Sp-177/LEETCODE/tree/master/3153-apply-operations-on-array-to-maximize-sum-of-squares) |
 ## Binary Indexed Tree
 |  |
@@ -380,6 +383,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/Sp-177/LEETCODE/tree/master/0208-implement-trie-prefix-tree) |
 | [0212-word-search-ii](https://github.com/Sp-177/LEETCODE/tree/master/0212-word-search-ii) |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Sp-177/LEETCODE/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0677-map-sum-pairs](https://github.com/Sp-177/LEETCODE/tree/master/0677-map-sum-pairs) |
 | [0720-longest-word-in-dictionary](https://github.com/Sp-177/LEETCODE/tree/master/0720-longest-word-in-dictionary) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Sp-177/LEETCODE/tree/master/2494-sum-of-prefix-scores-of-strings) |
