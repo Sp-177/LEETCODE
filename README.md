@@ -116,6 +116,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Sp-177/LEETCODE/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [2915-count-of-interesting-subarrays](https://github.com/Sp-177/LEETCODE/tree/master/2915-count-of-interesting-subarrays) |
 | [3153-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/Sp-177/LEETCODE/tree/master/3153-apply-operations-on-array-to-maximize-sum-of-squares) |
+| [3197-maximum-strong-pair-xor-ii](https://github.com/Sp-177/LEETCODE/tree/master/3197-maximum-strong-pair-xor-ii) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Sp-177/LEETCODE/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Sp-177/LEETCODE/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/Sp-177/LEETCODE/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
@@ -142,6 +143,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [2626-count-the-number-of-good-subarrays](https://github.com/Sp-177/LEETCODE/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2915-count-of-interesting-subarrays](https://github.com/Sp-177/LEETCODE/tree/master/2915-count-of-interesting-subarrays) |
 | [3153-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/Sp-177/LEETCODE/tree/master/3153-apply-operations-on-array-to-maximize-sum-of-squares) |
+| [3197-maximum-strong-pair-xor-ii](https://github.com/Sp-177/LEETCODE/tree/master/3197-maximum-strong-pair-xor-ii) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Sp-177/LEETCODE/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Divide and Conquer
 |  |
@@ -245,6 +247,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/Sp-177/LEETCODE/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/Sp-177/LEETCODE/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/Sp-177/LEETCODE/tree/master/2626-count-the-number-of-good-subarrays) |
+| [3197-maximum-strong-pair-xor-ii](https://github.com/Sp-177/LEETCODE/tree/master/3197-maximum-strong-pair-xor-ii) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Sp-177/LEETCODE/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 ## Design
 |  |
@@ -358,6 +361,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Sp-177/LEETCODE/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [1826-maximum-xor-with-an-element-from-array](https://github.com/Sp-177/LEETCODE/tree/master/1826-maximum-xor-with-an-element-from-array) |
 | [3153-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/Sp-177/LEETCODE/tree/master/3153-apply-operations-on-array-to-maximize-sum-of-squares) |
+| [3197-maximum-strong-pair-xor-ii](https://github.com/Sp-177/LEETCODE/tree/master/3197-maximum-strong-pair-xor-ii) |
 ## Binary Indexed Tree
 |  |
 | ------- |
@@ -390,6 +394,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0720-longest-word-in-dictionary](https://github.com/Sp-177/LEETCODE/tree/master/0720-longest-word-in-dictionary) |
 | [1826-maximum-xor-with-an-element-from-array](https://github.com/Sp-177/LEETCODE/tree/master/1826-maximum-xor-with-an-element-from-array) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Sp-177/LEETCODE/tree/master/2494-sum-of-prefix-scores-of-strings) |
+| [3197-maximum-strong-pair-xor-ii](https://github.com/Sp-177/LEETCODE/tree/master/3197-maximum-strong-pair-xor-ii) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Sp-177/LEETCODE/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Math
 |  |
