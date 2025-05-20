@@ -26,27 +26,30 @@ class Trie{
 } ;
 class Solution {
 public:
-    int ans=0;
-    void maxXor(Node*left,Node*right){
-        if(left==NULL || right==NULL)return;
-        if(left->child[0]==NULL&&left->child[1]==NULL){
-            ans=max(ans,left->num^right->num);
-            return;
-        }
-        if(left->child[1]&&right->child[0]||left->child[0]&&right->child[1]){
-            maxXor(left->child[0],right->child[1]);
-            maxXor(left->child[1],right->child[0]);
-        return;
-        }
-         maxXor(left->child[0],right->child[0]);
-          maxXor(left->child[1],right->child[1]);
+   
+    int maxXor(int num,Node* node){
+        int Xor=0;
+        for(int i=31;i>=0;i--){
+            int mask=1<<i;
+            int bit=(num&mask)!=0?1:0;
+            if(node->child[bit^1]){
+                Xor<<=1;
+                Xor++;
+                node=node->child[bit^1];
 
-        
+            }else{
+                Xor<<=1;
+                node=node->child[bit];
+            }
+        }
+        return Xor;
     }
     int findMaximumXOR(vector<int>& nums) {
         Trie obj;
         for(int i:nums)obj.insert(i);
-        maxXor(obj.root,obj.root);
+        int ans=0;
+        for(int i:nums)ans=max(ans,maxXor(i,obj.root));
         return ans;
+
     }
 };
