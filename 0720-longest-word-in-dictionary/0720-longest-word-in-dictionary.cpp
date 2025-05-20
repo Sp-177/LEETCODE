@@ -2,8 +2,10 @@ class Node{
     public:
     bool isEnd;
     vector<Node*>child;
+    char ch;
     Node(){
         isEnd=false;
+        ch=0;
         child.resize(26,0);
     }
 };
@@ -13,7 +15,7 @@ class Trie{
     Trie(){
         root=new Node;
     }
-    bool insert(string word){
+    void insert(string word){
         Node* temp=root;
         for(int i=0;i<word.size();i++){
             if(temp->child[word[i]-'a']==NULL){
@@ -21,26 +23,38 @@ class Trie{
             }
            
             temp=temp->child[word[i]-'a'];
-            if(i!=word.size()-1){
-                if(temp->isEnd==false)return false;
-            }
+            temp->ch=word[i];
         }
         temp->isEnd=true;
-        return true;
+        
     }
 };
 class Solution {
 public:
-    
+    string dfs(Node* node,string str){
+      
+        if(node->isEnd==false)return "";
+        string ans=str;
+        for(char i='a';i<='z';i++){
+            if(node->child[i-'a']==NULL)continue;
+            string returned=dfs(node->child[i-'a'],str+i);
+            ans=(ans.size()<returned.size())?returned:(ans.size()==returned.size())?min(returned,ans):ans;
+        }
+       
+        return ans;
+    }
     string longestWord(vector<string>& words) {
-        sort(words.begin(),words.end());
+        
         string ans="";
         Trie obj;
         for(auto str:words){
-            if(obj.insert(str)){
-                if(ans.size()<str.size())ans=str;
-                else if(ans.size()==str.size())ans=min(ans,str);
-            }
+           obj.insert(str);
+        }
+        Node* node=obj.root;
+        for(char i='a';i<='z';i++){
+            if(node->child[i-'a']==NULL)continue;
+            string returned=dfs(node->child[i-'a'],string(1,i));
+            ans=(ans.size()<returned.size())?returned:(ans.size()==returned.size())?min(returned,ans):ans;
         }
         return ans;
     }
