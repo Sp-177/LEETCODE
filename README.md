@@ -106,6 +106,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/Sp-177/LEETCODE/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
 | [2280-count-good-triplets-in-an-array](https://github.com/Sp-177/LEETCODE/tree/master/2280-count-good-triplets-in-an-array) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/Sp-177/LEETCODE/tree/master/2394-count-subarrays-with-score-less-than-k) |
+| [2494-sum-of-prefix-scores-of-strings](https://github.com/Sp-177/LEETCODE/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/Sp-177/LEETCODE/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/Sp-177/LEETCODE/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Sp-177/LEETCODE/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -164,6 +165,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | ------- |
 | [0169-majority-element](https://github.com/Sp-177/LEETCODE/tree/master/0169-majority-element) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Sp-177/LEETCODE/tree/master/1034-subarrays-with-k-different-integers) |
+| [2494-sum-of-prefix-scores-of-strings](https://github.com/Sp-177/LEETCODE/tree/master/2494-sum-of-prefix-scores-of-strings) |
 ## Two Pointers
 |  |
 | ------- |
@@ -207,6 +209,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0720-longest-word-in-dictionary](https://github.com/Sp-177/LEETCODE/tree/master/0720-longest-word-in-dictionary) |
 | [0868-push-dominoes](https://github.com/Sp-177/LEETCODE/tree/master/0868-push-dominoes) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Sp-177/LEETCODE/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [2494-sum-of-prefix-scores-of-strings](https://github.com/Sp-177/LEETCODE/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Sp-177/LEETCODE/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Dynamic Programming
 |  |
@@ -379,6 +382,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0212-word-search-ii](https://github.com/Sp-177/LEETCODE/tree/master/0212-word-search-ii) |
 | [0677-map-sum-pairs](https://github.com/Sp-177/LEETCODE/tree/master/0677-map-sum-pairs) |
 | [0720-longest-word-in-dictionary](https://github.com/Sp-177/LEETCODE/tree/master/0720-longest-word-in-dictionary) |
+| [2494-sum-of-prefix-scores-of-strings](https://github.com/Sp-177/LEETCODE/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Sp-177/LEETCODE/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Math
 |  |
