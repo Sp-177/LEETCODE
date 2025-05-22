@@ -103,6 +103,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [1826-maximum-xor-with-an-element-from-array](https://github.com/Sp-177/LEETCODE/tree/master/1826-maximum-xor-with-an-element-from-array) |
 | [2047-find-a-peak-element-ii](https://github.com/Sp-177/LEETCODE/tree/master/2047-find-a-peak-element-ii) |
 | [2048-build-array-from-permutation](https://github.com/Sp-177/LEETCODE/tree/master/2048-build-array-from-permutation) |
+| [2051-longest-common-subpath](https://github.com/Sp-177/LEETCODE/tree/master/2051-longest-common-subpath) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Sp-177/LEETCODE/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2249-count-the-hidden-sequences](https://github.com/Sp-177/LEETCODE/tree/master/2249-count-the-hidden-sequences) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/Sp-177/LEETCODE/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
@@ -194,6 +195,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [1046-max-consecutive-ones-iii](https://github.com/Sp-177/LEETCODE/tree/master/1046-max-consecutive-ones-iii) |
 | [1753-path-with-minimum-effort](https://github.com/Sp-177/LEETCODE/tree/master/1753-path-with-minimum-effort) |
 | [2047-find-a-peak-element-ii](https://github.com/Sp-177/LEETCODE/tree/master/2047-find-a-peak-element-ii) |
+| [2051-longest-common-subpath](https://github.com/Sp-177/LEETCODE/tree/master/2051-longest-common-subpath) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Sp-177/LEETCODE/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2280-count-good-triplets-in-an-array](https://github.com/Sp-177/LEETCODE/tree/master/2280-count-good-triplets-in-an-array) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/Sp-177/LEETCODE/tree/master/2394-count-subarrays-with-score-less-than-k) |
@@ -438,4 +440,16 @@ Feel free to customize this README further to suit your preferences and showcase
 |  |
 | ------- |
 | [0212-word-search-ii](https://github.com/Sp-177/LEETCODE/tree/master/0212-word-search-ii) |
+## Rolling Hash
+|  |
+| ------- |
+| [2051-longest-common-subpath](https://github.com/Sp-177/LEETCODE/tree/master/2051-longest-common-subpath) |
+## Suffix Array
+|  |
+| ------- |
+| [2051-longest-common-subpath](https://github.com/Sp-177/LEETCODE/tree/master/2051-longest-common-subpath) |
+## Hash Function
+|  |
+| ------- |
+| [2051-longest-common-subpath](https://github.com/Sp-177/LEETCODE/tree/master/2051-longest-common-subpath) |
 <!---LeetCode Topics End-->
