@@ -216,6 +216,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0720-longest-word-in-dictionary](https://github.com/Sp-177/LEETCODE/tree/master/0720-longest-word-in-dictionary) |
 | [0868-push-dominoes](https://github.com/Sp-177/LEETCODE/tree/master/0868-push-dominoes) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Sp-177/LEETCODE/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1508-longest-happy-prefix](https://github.com/Sp-177/LEETCODE/tree/master/1508-longest-happy-prefix) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Sp-177/LEETCODE/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Sp-177/LEETCODE/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Dynamic Programming
@@ -443,6 +444,7 @@ Feel free to customize this README further to suit your preferences and showcase
 ## Rolling Hash
 |  |
 | ------- |
+| [1508-longest-happy-prefix](https://github.com/Sp-177/LEETCODE/tree/master/1508-longest-happy-prefix) |
 | [2051-longest-common-subpath](https://github.com/Sp-177/LEETCODE/tree/master/2051-longest-common-subpath) |
 ## Suffix Array
 |  |
@@ -451,5 +453,10 @@ Feel free to customize this README further to suit your preferences and showcase
 ## Hash Function
 |  |
 | ------- |
+| [1508-longest-happy-prefix](https://github.com/Sp-177/LEETCODE/tree/master/1508-longest-happy-prefix) |
 | [2051-longest-common-subpath](https://github.com/Sp-177/LEETCODE/tree/master/2051-longest-common-subpath) |
+## String Matching
+|  |
+| ------- |
+| [1508-longest-happy-prefix](https://github.com/Sp-177/LEETCODE/tree/master/1508-longest-happy-prefix) |
 <!---LeetCode Topics End-->
