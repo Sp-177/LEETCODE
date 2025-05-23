@@ -219,6 +219,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0686-repeated-string-match](https://github.com/Sp-177/LEETCODE/tree/master/0686-repeated-string-match) |
 | [0720-longest-word-in-dictionary](https://github.com/Sp-177/LEETCODE/tree/master/0720-longest-word-in-dictionary) |
 | [0868-push-dominoes](https://github.com/Sp-177/LEETCODE/tree/master/0868-push-dominoes) |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/Sp-177/LEETCODE/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Sp-177/LEETCODE/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1508-longest-happy-prefix](https://github.com/Sp-177/LEETCODE/tree/master/1508-longest-happy-prefix) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Sp-177/LEETCODE/tree/master/2494-sum-of-prefix-scores-of-strings) |
@@ -282,6 +283,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0455-assign-cookies](https://github.com/Sp-177/LEETCODE/tree/master/0455-assign-cookies) |
 | [0797-rabbits-in-forest](https://github.com/Sp-177/LEETCODE/tree/master/0797-rabbits-in-forest) |
 | [0890-lemonade-change](https://github.com/Sp-177/LEETCODE/tree/master/0890-lemonade-change) |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/Sp-177/LEETCODE/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/Sp-177/LEETCODE/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Sp-177/LEETCODE/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [3153-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/Sp-177/LEETCODE/tree/master/3153-apply-operations-on-array-to-maximize-sum-of-squares) |
@@ -468,4 +470,8 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0214-shortest-palindrome](https://github.com/Sp-177/LEETCODE/tree/master/0214-shortest-palindrome) |
 | [0686-repeated-string-match](https://github.com/Sp-177/LEETCODE/tree/master/0686-repeated-string-match) |
 | [1508-longest-happy-prefix](https://github.com/Sp-177/LEETCODE/tree/master/1508-longest-happy-prefix) |
+## Stack
+|  |
+| ------- |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/Sp-177/LEETCODE/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 <!---LeetCode Topics End-->
