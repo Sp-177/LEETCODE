@@ -216,6 +216,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0424-longest-repeating-character-replacement](https://github.com/Sp-177/LEETCODE/tree/master/0424-longest-repeating-character-replacement) |
 | [0647-palindromic-substrings](https://github.com/Sp-177/LEETCODE/tree/master/0647-palindromic-substrings) |
 | [0677-map-sum-pairs](https://github.com/Sp-177/LEETCODE/tree/master/0677-map-sum-pairs) |
+| [0686-repeated-string-match](https://github.com/Sp-177/LEETCODE/tree/master/0686-repeated-string-match) |
 | [0720-longest-word-in-dictionary](https://github.com/Sp-177/LEETCODE/tree/master/0720-longest-word-in-dictionary) |
 | [0868-push-dominoes](https://github.com/Sp-177/LEETCODE/tree/master/0868-push-dominoes) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Sp-177/LEETCODE/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -465,5 +466,6 @@ Feel free to customize this README further to suit your preferences and showcase
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Sp-177/LEETCODE/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0214-shortest-palindrome](https://github.com/Sp-177/LEETCODE/tree/master/0214-shortest-palindrome) |
+| [0686-repeated-string-match](https://github.com/Sp-177/LEETCODE/tree/master/0686-repeated-string-match) |
 | [1508-longest-happy-prefix](https://github.com/Sp-177/LEETCODE/tree/master/1508-longest-happy-prefix) |
 <!---LeetCode Topics End-->
