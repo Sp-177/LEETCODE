@@ -102,6 +102,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/Sp-177/LEETCODE/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Sp-177/LEETCODE/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1656-count-good-triplets](https://github.com/Sp-177/LEETCODE/tree/master/1656-count-good-triplets) |
+| [1669-minimum-cost-to-cut-a-stick](https://github.com/Sp-177/LEETCODE/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1753-path-with-minimum-effort](https://github.com/Sp-177/LEETCODE/tree/master/1753-path-with-minimum-effort) |
 | [1826-maximum-xor-with-an-element-from-array](https://github.com/Sp-177/LEETCODE/tree/master/1826-maximum-xor-with-an-element-from-array) |
 | [2047-find-a-peak-element-ii](https://github.com/Sp-177/LEETCODE/tree/master/2047-find-a-peak-element-ii) |
@@ -167,6 +168,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0435-non-overlapping-intervals](https://github.com/Sp-177/LEETCODE/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Sp-177/LEETCODE/tree/master/0455-assign-cookies) |
 | [0720-longest-word-in-dictionary](https://github.com/Sp-177/LEETCODE/tree/master/0720-longest-word-in-dictionary) |
+| [1669-minimum-cost-to-cut-a-stick](https://github.com/Sp-177/LEETCODE/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Sp-177/LEETCODE/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Sp-177/LEETCODE/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Counting
@@ -243,6 +245,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0803-cheapest-flights-within-k-stops](https://github.com/Sp-177/LEETCODE/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0868-push-dominoes](https://github.com/Sp-177/LEETCODE/tree/master/0868-push-dominoes) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Sp-177/LEETCODE/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [1669-minimum-cost-to-cut-a-stick](https://github.com/Sp-177/LEETCODE/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Sp-177/LEETCODE/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Sp-177/LEETCODE/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 ## Sliding Window
