@@ -77,6 +77,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0212-word-search-ii](https://github.com/Sp-177/LEETCODE/tree/master/0212-word-search-ii) |
 | [0213-house-robber-ii](https://github.com/Sp-177/LEETCODE/tree/master/0213-house-robber-ii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Sp-177/LEETCODE/tree/master/0240-search-a-2d-matrix-ii) |
+| [0312-burst-balloons](https://github.com/Sp-177/LEETCODE/tree/master/0312-burst-balloons) |
 | [0410-split-array-largest-sum](https://github.com/Sp-177/LEETCODE/tree/master/0410-split-array-largest-sum) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Sp-177/LEETCODE/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0435-non-overlapping-intervals](https://github.com/Sp-177/LEETCODE/tree/master/0435-non-overlapping-intervals) |
@@ -237,6 +238,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0055-jump-game](https://github.com/Sp-177/LEETCODE/tree/master/0055-jump-game) |
 | [0085-maximal-rectangle](https://github.com/Sp-177/LEETCODE/tree/master/0085-maximal-rectangle) |
 | [0213-house-robber-ii](https://github.com/Sp-177/LEETCODE/tree/master/0213-house-robber-ii) |
+| [0312-burst-balloons](https://github.com/Sp-177/LEETCODE/tree/master/0312-burst-balloons) |
 | [0410-split-array-largest-sum](https://github.com/Sp-177/LEETCODE/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Sp-177/LEETCODE/tree/master/0435-non-overlapping-intervals) |
 | [0486-predict-the-winner](https://github.com/Sp-177/LEETCODE/tree/master/0486-predict-the-winner) |
