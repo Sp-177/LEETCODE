@@ -1,55 +1,37 @@
-#include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm> // Needed for std::find
-
 class Solution {
 public:
-    bool calc(std::vector<int>& v, int ops) {
-        if (ops == 1) {
-            return v[0] ^ 1;
-        } else if (ops == 2) {
-            if (std::find(v.begin(), v.end(), 1) == v.end()) return 0;
-            return 1;
-        }
-        if (std::find(v.begin(), v.end(), 0) == v.end()) return 1;
-        return 0;
-    }
-
-    bool func(int start, int end, const std::string& exp) {
-        // cout<<start<<" "<<end<<endl;
-        int ops = 0;
-        if (exp[start] == '!') ops = 1;
-        else if (exp[start] == '|') ops = 2;
-
-        std::vector<int> v;
-        for (int i = start + 2; i < end; i++) {
-            if (exp[i] == 'f') v.push_back(0);
-            else if (exp[i] == 't') v.push_back(1);
-            else if (exp[i] == ',') continue;
-            else {
-                int cnt = 0;
-                int j = i + 1;
-                while (j < end ) {
-                    if (exp[j] == '(') cnt++;
-                    else if (exp[j] == ')') cnt--;
-                    if(cnt==0)break;
-                    j++;
+    bool parseBoolExpr(string exp) {
+        stack<char>st1,st2;
+        for(auto i:exp){
+            if(i==',')continue;
+            else if(i=='|')st1.push('|');
+            else if(i=='!')st1.push('!');
+            else if(i=='&')st1.push('&');
+            else if(i=='(')st2.push('(');
+            else if(i=='t')st2.push('t');
+            else if(i=='f')st2.push('f');
+            else if(i==')'){
+                bool ans=st2.top()=='f'?false:true;
+                st2.pop();
+                if(st1.size()&&st1.top()=='!')ans=!ans;
+                while(st2.size()&& (st2.top()!='(') && st1.size()){
+                    // cout<<st2.size()<<" "<<st1.size()<<endl;
+                    bool b=st2.top()=='t'?true:false;
+                    if(st1.top()=='|'){
+                        ans=ans||b;
+                    }
+                    else if(st1.top()=='&'){
+                        ans=ans&&b;
+                    }
+                    st2.pop();
                 }
-                bool ans = func(i, j, exp);
-                v.push_back(ans);
-                i = j +1;
+                if(st2.size())st2.pop();
+                st2.push((ans?'t':'f'));
+                st1.pop();
             }
-        }
 
-        return calc(v, ops);
-    }
-
-    bool parseBoolExpr(std::string expression) {
-        if(expression.size()==1){
-            if(expression[0]=='f')return false;
-            return true;
         }
-        return func(0, expression.size() - 1, expression);
+        return ((st2.top()=='t')?true:false);
+
     }
 };
