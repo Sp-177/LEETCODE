@@ -229,6 +229,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0868-push-dominoes](https://github.com/Sp-177/LEETCODE/tree/master/0868-push-dominoes) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Sp-177/LEETCODE/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1197-parsing-a-boolean-expression](https://github.com/Sp-177/LEETCODE/tree/master/1197-parsing-a-boolean-expression) |
+| [1403-palindrome-partitioning-iii](https://github.com/Sp-177/LEETCODE/tree/master/1403-palindrome-partitioning-iii) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Sp-177/LEETCODE/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1508-longest-happy-prefix](https://github.com/Sp-177/LEETCODE/tree/master/1508-longest-happy-prefix) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Sp-177/LEETCODE/tree/master/2494-sum-of-prefix-scores-of-strings) |
@@ -252,6 +253,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0803-cheapest-flights-within-k-stops](https://github.com/Sp-177/LEETCODE/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0868-push-dominoes](https://github.com/Sp-177/LEETCODE/tree/master/0868-push-dominoes) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Sp-177/LEETCODE/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [1403-palindrome-partitioning-iii](https://github.com/Sp-177/LEETCODE/tree/master/1403-palindrome-partitioning-iii) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Sp-177/LEETCODE/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Sp-177/LEETCODE/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Sp-177/LEETCODE/tree/master/2794-maximum-number-of-moves-in-a-grid) |
