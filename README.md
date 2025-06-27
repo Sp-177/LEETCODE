@@ -216,6 +216,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0038-count-and-say](https://github.com/Sp-177/LEETCODE/tree/master/0038-count-and-say) |
 | [0076-minimum-window-substring](https://github.com/Sp-177/LEETCODE/tree/master/0076-minimum-window-substring) |
 | [0127-word-ladder](https://github.com/Sp-177/LEETCODE/tree/master/0127-word-ladder) |
+| [0131-palindrome-partitioning](https://github.com/Sp-177/LEETCODE/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/Sp-177/LEETCODE/tree/master/0132-palindrome-partitioning-ii) |
 | [0208-implement-trie-prefix-tree](https://github.com/Sp-177/LEETCODE/tree/master/0208-implement-trie-prefix-tree) |
 | [0212-word-search-ii](https://github.com/Sp-177/LEETCODE/tree/master/0212-word-search-ii) |
@@ -239,6 +240,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0045-jump-game-ii](https://github.com/Sp-177/LEETCODE/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Sp-177/LEETCODE/tree/master/0055-jump-game) |
 | [0085-maximal-rectangle](https://github.com/Sp-177/LEETCODE/tree/master/0085-maximal-rectangle) |
+| [0131-palindrome-partitioning](https://github.com/Sp-177/LEETCODE/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/Sp-177/LEETCODE/tree/master/0132-palindrome-partitioning-ii) |
 | [0213-house-robber-ii](https://github.com/Sp-177/LEETCODE/tree/master/0213-house-robber-ii) |
 | [0312-burst-balloons](https://github.com/Sp-177/LEETCODE/tree/master/0312-burst-balloons) |
@@ -463,6 +465,7 @@ Feel free to customize this README further to suit your preferences and showcase
 ## Backtracking
 |  |
 | ------- |
+| [0131-palindrome-partitioning](https://github.com/Sp-177/LEETCODE/tree/master/0131-palindrome-partitioning) |
 | [0212-word-search-ii](https://github.com/Sp-177/LEETCODE/tree/master/0212-word-search-ii) |
 ## Rolling Hash
 |  |
