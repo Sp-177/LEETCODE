@@ -1,30 +1,28 @@
 class Solution {
 public:
-    bool pal(string s){
-        int i=0,j=s.size()-1;
-        while(i<j){
-            if(s[i]!=s[j])return false;
-            i++;j--;
-        }return true;
+    vector<vector<string>>ans;
+    bool check(string s,int i,int j){
+        while(i<j){if(s[i]!=s[j])return false; i++;j--;}
+        return true;
     }
-    void func(string s,vector<vector<string>>&ans,vector<string>&output){
-        if(s.size()==0){
-            ans.push_back(output);
+    void func(string s,int index,vector<string>&out){
+        if(index==s.size()){
+            ans.push_back(out);
             return ;
         }
-        for(int j=0;j<s.size();j++){
-            if(pal(s.substr(0,j+1))){
-                
-                output.push_back(s.substr(0,j+1));
-                func(s.substr(j+1,s.size()-1),ans,output);
-                output.pop_back();
+        for(int i=index;i<s.size();i++){
+            if(check(s,index,i)){
+                string temp=s.substr(index,i-index+1);
+                out.push_back(temp);
+                func(s,i+1,out);
+                out.pop_back();
             }
         }
+
     }
     vector<vector<string>> partition(string s) {
-        vector<vector<string>>ans;
-        vector<string>output;
-        func(s,ans,output);
+        vector<string>out;
+        func(s,0,out);
         return ans;
     }
 };
