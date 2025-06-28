@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<int> dp;
-
+    unordered_map<string,int>mp;
     class Node {
     public:
         int ind;
@@ -37,7 +37,7 @@ public:
         }
     };
 
-    int func(vector<string>& words, int n, Trie* obj, int index) {
+    int func(vector<string>& words, int n, int index) {
         if (index == n) return 0;
         if (dp[index] != -1) return dp[index];
 
@@ -48,9 +48,9 @@ public:
         for (char c = 'a'; c <= 'z'; c++) {
             for (int i = 0; i <= len; i++) {
                 string temp = str.substr(0, i) + c + str.substr(i);
-                int ind = obj->search(temp);
-                if (ind != -1) {
-                    ans = max(ans, func(words, n, obj, ind) + 1);
+                
+                if (mp.count(temp)) {
+                    ans = max(ans, func(words, n, mp[temp]) + 1);
                 }
             }
         }
@@ -58,17 +58,17 @@ public:
     }
 
     int longestStrChain(vector<string>& words) {
-        Trie* obj = new Trie();
+        // Trie* obj = new Trie();
         sort(words.begin(), words.end());
         int n = words.size();
 
-        for (int i = 0; i < n; i++) obj->insert(words[i], i);
+        for (int i = 0; i < n; i++) mp[words[i]]=i;
 
         dp.resize(n, -1);
         int ans = 0;
 
         for (int i = 0; i < n; i++) {
-            ans = max(ans, func(words, n, obj, i));
+            ans = max(ans, func(words, n, i));
         }
 
         return ans;
