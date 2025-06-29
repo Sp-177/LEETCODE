@@ -87,6 +87,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0486-predict-the-winner](https://github.com/Sp-177/LEETCODE/tree/master/0486-predict-the-winner) |
 | [0493-reverse-pairs](https://github.com/Sp-177/LEETCODE/tree/master/0493-reverse-pairs) |
 | [0542-01-matrix](https://github.com/Sp-177/LEETCODE/tree/master/0542-01-matrix) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/Sp-177/LEETCODE/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0720-longest-word-in-dictionary](https://github.com/Sp-177/LEETCODE/tree/master/0720-longest-word-in-dictionary) |
 | [0733-flood-fill](https://github.com/Sp-177/LEETCODE/tree/master/0733-flood-fill) |
 | [0797-rabbits-in-forest](https://github.com/Sp-177/LEETCODE/tree/master/0797-rabbits-in-forest) |
@@ -262,6 +263,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0486-predict-the-winner](https://github.com/Sp-177/LEETCODE/tree/master/0486-predict-the-winner) |
 | [0542-01-matrix](https://github.com/Sp-177/LEETCODE/tree/master/0542-01-matrix) |
 | [0647-palindromic-substrings](https://github.com/Sp-177/LEETCODE/tree/master/0647-palindromic-substrings) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/Sp-177/LEETCODE/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Sp-177/LEETCODE/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0868-push-dominoes](https://github.com/Sp-177/LEETCODE/tree/master/0868-push-dominoes) |
 | [1129-longest-string-chain](https://github.com/Sp-177/LEETCODE/tree/master/1129-longest-string-chain) |
@@ -409,12 +411,14 @@ Feel free to customize this README further to suit your preferences and showcase
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/Sp-177/LEETCODE/tree/master/0493-reverse-pairs) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/Sp-177/LEETCODE/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [2280-count-good-triplets-in-an-array](https://github.com/Sp-177/LEETCODE/tree/master/2280-count-good-triplets-in-an-array) |
 | [3829-shortest-path-in-a-weighted-tree](https://github.com/Sp-177/LEETCODE/tree/master/3829-shortest-path-in-a-weighted-tree) |
 ## Segment Tree
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/Sp-177/LEETCODE/tree/master/0493-reverse-pairs) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/Sp-177/LEETCODE/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [2280-count-good-triplets-in-an-array](https://github.com/Sp-177/LEETCODE/tree/master/2280-count-good-triplets-in-an-array) |
 | [3829-shortest-path-in-a-weighted-tree](https://github.com/Sp-177/LEETCODE/tree/master/3829-shortest-path-in-a-weighted-tree) |
 ## Merge Sort
