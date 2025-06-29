@@ -1,27 +1,28 @@
 class Solution {
 public:
     vector<int> largestDivisibleSubset(vector<int>& nums) {
+        int n=nums.size();
         sort(nums.begin(),nums.end());
-    unordered_map<int,int>m;
-    for(int i=0;i<nums.size();i++)m[i]=i;
-    vector<int>dp(nums.size(),1);
-    int s=1;int ind=0;
-    for(int i=1;i<nums.size();i++){
-        for(int j=0;j<i;j++){
-            if((nums[i]%nums[j]==0 &&dp[i]<dp[j]+1)){
-                dp[i]=dp[j]+1;
-                m[i]=j;
+        vector<int>ans(n,1);
+        for(int i=0;i<n;i++){
+            for(int j=0;j<i;j++){
+                if(nums[i]%nums[j]==0)ans[i]=max(ans[i],ans[j]+1);
             }
         }
-        if(s<dp[i]){s=dp[i];ind=i;}
-    }
-    vector<int>ans;
-    while(m[ind]!=ind){
-        ans.push_back(nums[ind]);
-        ind=m[ind];
-    }
-    
-    ans.push_back(nums[ind]);
-    return ans;
+        for(int i:ans)cout<<i<<" ";
+        int m=*max_element(ans.begin(),ans.end());
+        int maxi=m;
+        int num=1;
+        vector<int>out;
+        // cout<<maxi<<endl;
+        for(int i=n-1;i>=0;i--){
+           
+            if((ans[i]==m && (num%nums[i]==0) )|| (ans[i]==maxi&&ans[i]==m)){
+                m--;
+                num=nums[i];
+                out.push_back(nums[i]);
+            }
+        }
+        return out;
     }
 };
