@@ -4,13 +4,15 @@ public:
         int n=nums.size();
         sort(nums.begin(),nums.end());
         vector<int>ans(n,1);
+        int m=0;
         for(int i=0;i<n;i++){
             for(int j=0;j<i;j++){
                 if(nums[i]%nums[j]==0)ans[i]=max(ans[i],ans[j]+1);
             }
+            m=max(ans[i],m);
         }
-        for(int i:ans)cout<<i<<" ";
-        int m=*max_element(ans.begin(),ans.end());
+        // for(int i:ans)cout<<i<<" ";
+        
         int maxi=m;
         int num=1;
         vector<int>out;
