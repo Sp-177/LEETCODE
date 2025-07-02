@@ -133,6 +133,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Sp-177/LEETCODE/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/Sp-177/LEETCODE/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3829-shortest-path-in-a-weighted-tree](https://github.com/Sp-177/LEETCODE/tree/master/3829-shortest-path-in-a-weighted-tree) |
+| [3892-best-time-to-buy-and-sell-stock-v](https://github.com/Sp-177/LEETCODE/tree/master/3892-best-time-to-buy-and-sell-stock-v) |
 ## Hash Table
 |  |
 | ------- |
@@ -281,6 +282,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [1871-palindrome-partitioning-iv](https://github.com/Sp-177/LEETCODE/tree/master/1871-palindrome-partitioning-iv) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Sp-177/LEETCODE/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Sp-177/LEETCODE/tree/master/2794-maximum-number-of-moves-in-a-grid) |
+| [3892-best-time-to-buy-and-sell-stock-v](https://github.com/Sp-177/LEETCODE/tree/master/3892-best-time-to-buy-and-sell-stock-v) |
 ## Sliding Window
 |  |
 | ------- |
