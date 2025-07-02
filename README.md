@@ -225,6 +225,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0005-longest-palindromic-substring](https://github.com/Sp-177/LEETCODE/tree/master/0005-longest-palindromic-substring) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Sp-177/LEETCODE/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0038-count-and-say](https://github.com/Sp-177/LEETCODE/tree/master/0038-count-and-say) |
+| [0044-wildcard-matching](https://github.com/Sp-177/LEETCODE/tree/master/0044-wildcard-matching) |
 | [0076-minimum-window-substring](https://github.com/Sp-177/LEETCODE/tree/master/0076-minimum-window-substring) |
 | [0127-word-ladder](https://github.com/Sp-177/LEETCODE/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/Sp-177/LEETCODE/tree/master/0131-palindrome-partitioning) |
@@ -251,6 +252,7 @@ Feel free to customize this README further to suit your preferences and showcase
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Sp-177/LEETCODE/tree/master/0005-longest-palindromic-substring) |
+| [0044-wildcard-matching](https://github.com/Sp-177/LEETCODE/tree/master/0044-wildcard-matching) |
 | [0045-jump-game-ii](https://github.com/Sp-177/LEETCODE/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Sp-177/LEETCODE/tree/master/0055-jump-game) |
 | [0085-maximal-rectangle](https://github.com/Sp-177/LEETCODE/tree/master/0085-maximal-rectangle) |
@@ -314,6 +316,7 @@ Feel free to customize this README further to suit your preferences and showcase
 ## Greedy
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/Sp-177/LEETCODE/tree/master/0044-wildcard-matching) |
 | [0045-jump-game-ii](https://github.com/Sp-177/LEETCODE/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Sp-177/LEETCODE/tree/master/0055-jump-game) |
 | [0410-split-array-largest-sum](https://github.com/Sp-177/LEETCODE/tree/master/0410-split-array-largest-sum) |
@@ -525,6 +528,7 @@ Feel free to customize this README further to suit your preferences and showcase
 ## Recursion
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/Sp-177/LEETCODE/tree/master/0044-wildcard-matching) |
 | [0486-predict-the-winner](https://github.com/Sp-177/LEETCODE/tree/master/0486-predict-the-winner) |
 | [1197-parsing-a-boolean-expression](https://github.com/Sp-177/LEETCODE/tree/master/1197-parsing-a-boolean-expression) |
 ## Game Theory
