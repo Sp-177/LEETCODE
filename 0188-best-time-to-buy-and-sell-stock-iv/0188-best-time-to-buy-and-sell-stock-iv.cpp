@@ -1,23 +1,31 @@
 class Solution {
 public:
-    int maxProfit(int k, vector<int>& prices) {
-        int n=prices.size();
-         vector<vector<vector<int>>>dp(n+1,vector<vector<int>>(2,vector<int>(k+1,0)));
-    for(int i=n-1;i>=0;i--){
-        for(int j=0;j<=1;j++){
-            for(int l=1;l<=k;l++){
-                int n_t=dp[i+1][j][l];
-                int t=0;
-                if(j==1){
-                    t=-prices[i]+dp[i+1][0][l];
-                }
-                else{
-                    t=prices[i]+dp[i+1][1][l-1];
-                }
-                dp[i][j][l]=max(t,n_t);
-            }
+    vector<vector<vector<int>>> dp;
+
+    int func(vector<int>& prices, int n, int k, int index, int mode) {
+        if (index >= n || k == 0) return 0;
+        if (dp[index][k][mode] != -1) return dp[index][k][mode];
+
+        if (mode == 1) {
+            // Buy mode
+            dp[index][k][mode] = max(
+                func(prices, n, k, index + 1, 0) - prices[index],  // Buy
+                func(prices, n, k, index + 1, 1)                   // Skip
+            );
+        } else {
+            // Sell mode
+            dp[index][k][mode] = max(
+                func(prices, n, k - 1, index + 1, 1) + prices[index],  // Sell
+                func(prices, n, k, index + 1, 0)                       // Skip
+            );
         }
+
+        return dp[index][k][mode];
     }
-    return dp[0][1][k];
+
+    int maxProfit(int k, vector<int>& prices) {
+        int n = prices.size();
+        dp.assign(n, vector<vector<int>>(k + 1, vector<int>(2, -1)));
+        return func(prices, n, k, 0, 1); // Start at index 0 with buy mode
     }
 };
