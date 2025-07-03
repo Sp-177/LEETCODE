@@ -248,6 +248,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [1170-shortest-common-supersequence](https://github.com/Sp-177/LEETCODE/tree/master/1170-shortest-common-supersequence) |
 | [1197-parsing-a-boolean-expression](https://github.com/Sp-177/LEETCODE/tree/master/1197-parsing-a-boolean-expression) |
 | [1403-palindrome-partitioning-iii](https://github.com/Sp-177/LEETCODE/tree/master/1403-palindrome-partitioning-iii) |
+| [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Sp-177/LEETCODE/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Sp-177/LEETCODE/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1508-longest-happy-prefix](https://github.com/Sp-177/LEETCODE/tree/master/1508-longest-happy-prefix) |
 | [1871-palindrome-partitioning-iv](https://github.com/Sp-177/LEETCODE/tree/master/1871-palindrome-partitioning-iv) |
@@ -284,6 +285,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [1170-shortest-common-supersequence](https://github.com/Sp-177/LEETCODE/tree/master/1170-shortest-common-supersequence) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Sp-177/LEETCODE/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1403-palindrome-partitioning-iii](https://github.com/Sp-177/LEETCODE/tree/master/1403-palindrome-partitioning-iii) |
+| [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Sp-177/LEETCODE/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Sp-177/LEETCODE/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1871-palindrome-partitioning-iv](https://github.com/Sp-177/LEETCODE/tree/master/1871-palindrome-partitioning-iv) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/Sp-177/LEETCODE/tree/master/2415-count-the-number-of-ideal-arrays) |
