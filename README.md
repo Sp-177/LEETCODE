@@ -229,6 +229,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0044-wildcard-matching](https://github.com/Sp-177/LEETCODE/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/Sp-177/LEETCODE/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/Sp-177/LEETCODE/tree/master/0076-minimum-window-substring) |
+| [0115-distinct-subsequences](https://github.com/Sp-177/LEETCODE/tree/master/0115-distinct-subsequences) |
 | [0127-word-ladder](https://github.com/Sp-177/LEETCODE/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/Sp-177/LEETCODE/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/Sp-177/LEETCODE/tree/master/0132-palindrome-partitioning-ii) |
@@ -259,6 +260,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0055-jump-game](https://github.com/Sp-177/LEETCODE/tree/master/0055-jump-game) |
 | [0072-edit-distance](https://github.com/Sp-177/LEETCODE/tree/master/0072-edit-distance) |
 | [0085-maximal-rectangle](https://github.com/Sp-177/LEETCODE/tree/master/0085-maximal-rectangle) |
+| [0115-distinct-subsequences](https://github.com/Sp-177/LEETCODE/tree/master/0115-distinct-subsequences) |
 | [0131-palindrome-partitioning](https://github.com/Sp-177/LEETCODE/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/Sp-177/LEETCODE/tree/master/0132-palindrome-partitioning-ii) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Sp-177/LEETCODE/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
