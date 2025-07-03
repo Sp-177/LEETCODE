@@ -237,6 +237,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0212-word-search-ii](https://github.com/Sp-177/LEETCODE/tree/master/0212-word-search-ii) |
 | [0214-shortest-palindrome](https://github.com/Sp-177/LEETCODE/tree/master/0214-shortest-palindrome) |
 | [0424-longest-repeating-character-replacement](https://github.com/Sp-177/LEETCODE/tree/master/0424-longest-repeating-character-replacement) |
+| [0516-longest-palindromic-subsequence](https://github.com/Sp-177/LEETCODE/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/Sp-177/LEETCODE/tree/master/0583-delete-operation-for-two-strings) |
 | [0647-palindromic-substrings](https://github.com/Sp-177/LEETCODE/tree/master/0647-palindromic-substrings) |
 | [0677-map-sum-pairs](https://github.com/Sp-177/LEETCODE/tree/master/0677-map-sum-pairs) |
@@ -274,6 +275,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0410-split-array-largest-sum](https://github.com/Sp-177/LEETCODE/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Sp-177/LEETCODE/tree/master/0435-non-overlapping-intervals) |
 | [0486-predict-the-winner](https://github.com/Sp-177/LEETCODE/tree/master/0486-predict-the-winner) |
+| [0516-longest-palindromic-subsequence](https://github.com/Sp-177/LEETCODE/tree/master/0516-longest-palindromic-subsequence) |
 | [0542-01-matrix](https://github.com/Sp-177/LEETCODE/tree/master/0542-01-matrix) |
 | [0583-delete-operation-for-two-strings](https://github.com/Sp-177/LEETCODE/tree/master/0583-delete-operation-for-two-strings) |
 | [0647-palindromic-substrings](https://github.com/Sp-177/LEETCODE/tree/master/0647-palindromic-substrings) |
