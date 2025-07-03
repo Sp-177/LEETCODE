@@ -25,8 +25,8 @@ public:
         }
         int maxi=*max_element(p.begin(),p.end());
         string ans="";
-        for(auto i:p)cout<<i<<" ";
-        cout<<endl;
+        // for(auto i:p)cout<<i<<" ";
+        // cout<<endl;
         for(int i=0;i<n;i++){
             if(maxi==p[i]){
                 int start=(i-maxi)/2;
