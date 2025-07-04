@@ -224,6 +224,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Sp-177/LEETCODE/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/Sp-177/LEETCODE/tree/master/0005-longest-palindromic-substring) |
+| [0010-regular-expression-matching](https://github.com/Sp-177/LEETCODE/tree/master/0010-regular-expression-matching) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Sp-177/LEETCODE/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0038-count-and-say](https://github.com/Sp-177/LEETCODE/tree/master/0038-count-and-say) |
 | [0044-wildcard-matching](https://github.com/Sp-177/LEETCODE/tree/master/0044-wildcard-matching) |
@@ -259,6 +260,7 @@ Feel free to customize this README further to suit your preferences and showcase
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Sp-177/LEETCODE/tree/master/0005-longest-palindromic-substring) |
+| [0010-regular-expression-matching](https://github.com/Sp-177/LEETCODE/tree/master/0010-regular-expression-matching) |
 | [0044-wildcard-matching](https://github.com/Sp-177/LEETCODE/tree/master/0044-wildcard-matching) |
 | [0045-jump-game-ii](https://github.com/Sp-177/LEETCODE/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Sp-177/LEETCODE/tree/master/0055-jump-game) |
@@ -542,6 +544,7 @@ Feel free to customize this README further to suit your preferences and showcase
 ## Recursion
 |  |
 | ------- |
+| [0010-regular-expression-matching](https://github.com/Sp-177/LEETCODE/tree/master/0010-regular-expression-matching) |
 | [0044-wildcard-matching](https://github.com/Sp-177/LEETCODE/tree/master/0044-wildcard-matching) |
 | [0486-predict-the-winner](https://github.com/Sp-177/LEETCODE/tree/master/0486-predict-the-winner) |
 | [1197-parsing-a-boolean-expression](https://github.com/Sp-177/LEETCODE/tree/master/1197-parsing-a-boolean-expression) |
