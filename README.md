@@ -325,6 +325,7 @@ Feel free to customize this README further to suit your preferences and showcase
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/Sp-177/LEETCODE/tree/master/0295-find-median-from-data-stream) |
+| [0744-network-delay-time](https://github.com/Sp-177/LEETCODE/tree/master/0744-network-delay-time) |
 | [0794-swim-in-rising-water](https://github.com/Sp-177/LEETCODE/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Sp-177/LEETCODE/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1753-path-with-minimum-effort](https://github.com/Sp-177/LEETCODE/tree/master/1753-path-with-minimum-effort) |
@@ -354,6 +355,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0130-surrounded-regions](https://github.com/Sp-177/LEETCODE/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/Sp-177/LEETCODE/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/Sp-177/LEETCODE/tree/master/0733-flood-fill) |
+| [0744-network-delay-time](https://github.com/Sp-177/LEETCODE/tree/master/0744-network-delay-time) |
 | [0794-swim-in-rising-water](https://github.com/Sp-177/LEETCODE/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Sp-177/LEETCODE/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/Sp-177/LEETCODE/tree/master/0820-find-eventual-safe-states) |
@@ -370,6 +372,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0542-01-matrix](https://github.com/Sp-177/LEETCODE/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/Sp-177/LEETCODE/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/Sp-177/LEETCODE/tree/master/0733-flood-fill) |
+| [0744-network-delay-time](https://github.com/Sp-177/LEETCODE/tree/master/0744-network-delay-time) |
 | [0794-swim-in-rising-water](https://github.com/Sp-177/LEETCODE/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Sp-177/LEETCODE/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/Sp-177/LEETCODE/tree/master/0820-find-eventual-safe-states) |
@@ -391,6 +394,7 @@ Feel free to customize this README further to suit your preferences and showcase
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/Sp-177/LEETCODE/tree/master/0547-number-of-provinces) |
+| [0744-network-delay-time](https://github.com/Sp-177/LEETCODE/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Sp-177/LEETCODE/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/Sp-177/LEETCODE/tree/master/0820-find-eventual-safe-states) |
 | [1300-critical-connections-in-a-network](https://github.com/Sp-177/LEETCODE/tree/master/1300-critical-connections-in-a-network) |
@@ -421,6 +425,7 @@ Feel free to customize this README further to suit your preferences and showcase
 ## Shortest Path
 |  |
 | ------- |
+| [0744-network-delay-time](https://github.com/Sp-177/LEETCODE/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Sp-177/LEETCODE/tree/master/0803-cheapest-flights-within-k-stops) |
 ## Prefix Sum
 |  |
