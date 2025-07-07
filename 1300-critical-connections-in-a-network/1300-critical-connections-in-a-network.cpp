@@ -1,34 +1,41 @@
 class Solution {
 public:
-    vector<vector<int>>ans;
-    unordered_map<int,vector<int>>adj;
-    vector<int>inTime,low;
-    int dfs(int node,int par,int time){
-        // cout<<node<<" "<<time<<endl;
-        inTime[node]=low[node]=time;
-        int newTime=time;
-        for(auto child:adj[node]){
-            if(child==par)continue;
-            if(low[child]==INT_MAX){
-                int t=dfs(child,node,newTime+1);
-                newTime=t;
-            }
-            if(low[child]>inTime[node])ans.push_back({node,child});
-            low[node]=min(low[node],low[child]);
+    vector<vector<int>> ans;
+    vector<vector<int>> adj;
+    vector<int> inTime, low;
+    int timer = 0;
 
+    void dfs(int node, int parent) {
+        inTime[node] = low[node] = timer++;
+        
+        for (int child : adj[node]) {
+            if (child == parent) continue;
+            
+            if (inTime[child] == -1) {
+                dfs(child, node);
+                low[node] = min(low[node], low[child]);
+
+                if (low[child] > inTime[node]) {
+                    ans.push_back({node, child});  // It's a bridge
+                }
+            } else {
+                low[node] = min(low[node], inTime[child]);  // Back edge
+            }
         }
-         
-        return newTime;
     }
-    vector<vector<int>> criticalConnections(int n, vector<vector<int>>& c) {
-        inTime.resize(n);
-        low.resize(n,INT_MAX);
-        for(auto &edge:c){
-            int u=edge[0],v=edge[1];
+
+    vector<vector<int>> criticalConnections(int n, vector<vector<int>>& connections) {
+        adj.resize(n);
+        inTime.assign(n, -1);
+        low.assign(n, -1);
+
+        for (auto& edge : connections) {
+            int u = edge[0], v = edge[1];
             adj[u].push_back(v);
             adj[v].push_back(u);
         }
-        dfs(0,0,0);
+
+        dfs(0, -1);
         return ans;
     }
 };
