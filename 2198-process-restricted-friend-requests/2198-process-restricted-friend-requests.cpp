@@ -29,12 +29,13 @@ public:
             parent[rootV] = rootU;
 
             // Merge restriction sets
+            for (int restrictedBy : restrictionMap[rootV]) {
+                restrictionMap[restrictedBy].insert(rootU);
+            }
             restrictionMap[rootU].insert(restrictionMap[rootV].begin(), restrictionMap[rootV].end());
 
             // Reverse propagation: anyone who restricts a member of rootU's group now restricts rootU
-            for (int restrictedBy : restrictionMap[rootU]) {
-                restrictionMap[restrictedBy].insert(rootU);
-            }
+            
         }
     };
 
