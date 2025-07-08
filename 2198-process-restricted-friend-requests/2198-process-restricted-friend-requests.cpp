@@ -56,9 +56,7 @@ public:
             int rootV = dsu.find(v);
 
             bool violatesRestriction =
-                dsu.restrictionMap[rootU].count(v) ||
                 dsu.restrictionMap[rootU].count(rootV) ||
-                dsu.restrictionMap[rootV].count(u) ||
                 dsu.restrictionMap[rootV].count(rootU);
 
             if (violatesRestriction) {
