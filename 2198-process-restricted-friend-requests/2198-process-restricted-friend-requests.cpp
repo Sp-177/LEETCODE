@@ -1,71 +1,74 @@
 class Solution {
 public:
-
     class DSU {
     public:
-        vector<int> par;
-        unordered_map<int, set<int>> rest;
+        vector<int> parent;
+        unordered_map<int, unordered_set<int>> restrictionMap;
 
         DSU(int n) {
-            par.resize(n);
-            iota(par.begin(), par.end(), 0);
+            parent.resize(n);
+            iota(parent.begin(), parent.end(), 0);
         }
 
         int find(int x) {
-            if (x != par[x])
-                par[x] = find(par[x]);
-            return par[x];
+            if (x != parent[x])
+                parent[x] = find(parent[x]);  // Path compression
+            return parent[x];
         }
 
-        void merge(int x, int y) {
-            int p1 = find(x), p2 = find(y);
-            if (p1 == p2) return;
+        void merge(int u, int v) {
+            int rootU = find(u);
+            int rootV = find(v);
+            if (rootU == rootV) return;
 
-            // Merge smaller rest set into larger one
-            if (rest[p1].size() < rest[p2].size()) {
-                swap(p1, p2);
+            // Always merge smaller restriction set into the larger one
+            if (restrictionMap[rootU].size() < restrictionMap[rootV].size()) {
+                swap(rootU, rootV);
             }
 
-            par[p2] = p1;
-            rest[p1].insert(rest[p2].begin(), rest[p2].end());
-            for(int i:rest[p1])rest[i].insert(p1);
+            parent[rootV] = rootU;
+
+            // Merge restriction sets
+            restrictionMap[rootU].insert(restrictionMap[rootV].begin(), restrictionMap[rootV].end());
+
+            // Reverse propagation: anyone who restricts a member of rootU's group now restricts rootU
+            for (int restrictedBy : restrictionMap[rootU]) {
+                restrictionMap[restrictedBy].insert(rootU);
+            }
         }
     };
 
     vector<bool> friendRequests(int n, vector<vector<int>>& restrictions, vector<vector<int>>& requests) {
         DSU dsu(n);
 
-        // Build direct user-to-user restriction sets
-        for (auto& r : restrictions) {
-            int u = r[0], v = r[1];
-            dsu.rest[u].insert(v);
-            dsu.rest[v].insert(u);
+        // Build initial user-to-user restriction map
+        for (const auto& r : restrictions) {
+            int a = r[0], b = r[1];
+            dsu.restrictionMap[a].insert(b);
+            dsu.restrictionMap[b].insert(a);
         }
 
-        vector<bool> ans;
+        vector<bool> result;
 
-        for (auto& r : requests) {
-            int u = r[0], v = r[1];
-            int pu = dsu.find(u), pv = dsu.find(v);
+        for (const auto& req : requests) {
+            int u = req[0], v = req[1];
+            int rootU = dsu.find(u);
+            int rootV = dsu.find(v);
 
-            bool blocked = false;
+            bool violatesRestriction =
+                dsu.restrictionMap[rootU].count(v) ||
+                dsu.restrictionMap[rootU].count(rootV) ||
+                dsu.restrictionMap[rootV].count(u) ||
+                dsu.restrictionMap[rootV].count(rootU);
 
-            // Check all nodes in pu's group against rest[pu]
-            if (dsu.rest.count(pu) && (dsu.rest[pu].count(v) || dsu.rest[pu].count(pv))) {
-                blocked = true;
-            }
-            if (!blocked && dsu.rest.count(pv) && (dsu.rest[pv].count(u) || dsu.rest[pv].count(pu))) {
-                blocked = true;
-            }
-
-            if (blocked) {
-                ans.push_back(false);
+            if (violatesRestriction) {
+                result.push_back(false);
             } else {
-                ans.push_back(true);
                 dsu.merge(u, v);
+                result.push_back(true);
             }
         }
 
-        return ans;
+        return result;
     }
 };
