@@ -390,6 +390,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0854-making-a-large-island](https://github.com/Sp-177/LEETCODE/tree/master/0854-making-a-large-island) |
 | [1073-number-of-enclaves](https://github.com/Sp-177/LEETCODE/tree/master/1073-number-of-enclaves) |
 | [1753-path-with-minimum-effort](https://github.com/Sp-177/LEETCODE/tree/master/1753-path-with-minimum-effort) |
+| [2198-process-restricted-friend-requests](https://github.com/Sp-177/LEETCODE/tree/master/2198-process-restricted-friend-requests) |
 ## Graph
 |  |
 | ------- |
@@ -398,6 +399,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0803-cheapest-flights-within-k-stops](https://github.com/Sp-177/LEETCODE/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/Sp-177/LEETCODE/tree/master/0820-find-eventual-safe-states) |
 | [1300-critical-connections-in-a-network](https://github.com/Sp-177/LEETCODE/tree/master/1300-critical-connections-in-a-network) |
+| [2198-process-restricted-friend-requests](https://github.com/Sp-177/LEETCODE/tree/master/2198-process-restricted-friend-requests) |
 ## Matrix
 |  |
 | ------- |
