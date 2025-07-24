@@ -111,6 +111,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/Sp-177/LEETCODE/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1656-count-good-triplets](https://github.com/Sp-177/LEETCODE/tree/master/1656-count-good-triplets) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/Sp-177/LEETCODE/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [1706-min-cost-to-connect-all-points](https://github.com/Sp-177/LEETCODE/tree/master/1706-min-cost-to-connect-all-points) |
 | [1753-path-with-minimum-effort](https://github.com/Sp-177/LEETCODE/tree/master/1753-path-with-minimum-effort) |
 | [1826-maximum-xor-with-an-element-from-array](https://github.com/Sp-177/LEETCODE/tree/master/1826-maximum-xor-with-an-element-from-array) |
 | [2047-find-a-peak-element-ii](https://github.com/Sp-177/LEETCODE/tree/master/2047-find-a-peak-element-ii) |
@@ -389,6 +390,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0794-swim-in-rising-water](https://github.com/Sp-177/LEETCODE/tree/master/0794-swim-in-rising-water) |
 | [0854-making-a-large-island](https://github.com/Sp-177/LEETCODE/tree/master/0854-making-a-large-island) |
 | [1073-number-of-enclaves](https://github.com/Sp-177/LEETCODE/tree/master/1073-number-of-enclaves) |
+| [1706-min-cost-to-connect-all-points](https://github.com/Sp-177/LEETCODE/tree/master/1706-min-cost-to-connect-all-points) |
 | [1753-path-with-minimum-effort](https://github.com/Sp-177/LEETCODE/tree/master/1753-path-with-minimum-effort) |
 | [2198-process-restricted-friend-requests](https://github.com/Sp-177/LEETCODE/tree/master/2198-process-restricted-friend-requests) |
 ## Graph
@@ -399,6 +401,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0803-cheapest-flights-within-k-stops](https://github.com/Sp-177/LEETCODE/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/Sp-177/LEETCODE/tree/master/0820-find-eventual-safe-states) |
 | [1300-critical-connections-in-a-network](https://github.com/Sp-177/LEETCODE/tree/master/1300-critical-connections-in-a-network) |
+| [1706-min-cost-to-connect-all-points](https://github.com/Sp-177/LEETCODE/tree/master/1706-min-cost-to-connect-all-points) |
 | [2198-process-restricted-friend-requests](https://github.com/Sp-177/LEETCODE/tree/master/2198-process-restricted-friend-requests) |
 ## Matrix
 |  |
@@ -576,4 +579,8 @@ Feel free to customize this README further to suit your preferences and showcase
 |  |
 | ------- |
 | [1300-critical-connections-in-a-network](https://github.com/Sp-177/LEETCODE/tree/master/1300-critical-connections-in-a-network) |
+## Minimum Spanning Tree
+|  |
+| ------- |
+| [1706-min-cost-to-connect-all-points](https://github.com/Sp-177/LEETCODE/tree/master/1706-min-cost-to-connect-all-points) |
 <!---LeetCode Topics End-->
