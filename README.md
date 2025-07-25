@@ -121,6 +121,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [2249-count-the-hidden-sequences](https://github.com/Sp-177/LEETCODE/tree/master/2249-count-the-hidden-sequences) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/Sp-177/LEETCODE/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
 | [2280-count-good-triplets-in-an-array](https://github.com/Sp-177/LEETCODE/tree/master/2280-count-good-triplets-in-an-array) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Sp-177/LEETCODE/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/Sp-177/LEETCODE/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Sp-177/LEETCODE/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/Sp-177/LEETCODE/tree/master/2527-count-subarrays-with-fixed-bounds) |
@@ -330,6 +331,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0794-swim-in-rising-water](https://github.com/Sp-177/LEETCODE/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Sp-177/LEETCODE/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1753-path-with-minimum-effort](https://github.com/Sp-177/LEETCODE/tree/master/1753-path-with-minimum-effort) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Sp-177/LEETCODE/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 ## Data Stream
 |  |
 | ------- |
@@ -382,6 +384,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [1073-number-of-enclaves](https://github.com/Sp-177/LEETCODE/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Sp-177/LEETCODE/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1753-path-with-minimum-effort](https://github.com/Sp-177/LEETCODE/tree/master/1753-path-with-minimum-effort) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Sp-177/LEETCODE/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 ## Union Find
 |  |
 | ------- |
@@ -403,6 +406,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [1300-critical-connections-in-a-network](https://github.com/Sp-177/LEETCODE/tree/master/1300-critical-connections-in-a-network) |
 | [1706-min-cost-to-connect-all-points](https://github.com/Sp-177/LEETCODE/tree/master/1706-min-cost-to-connect-all-points) |
 | [2198-process-restricted-friend-requests](https://github.com/Sp-177/LEETCODE/tree/master/2198-process-restricted-friend-requests) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Sp-177/LEETCODE/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 ## Matrix
 |  |
 | ------- |
@@ -421,6 +425,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Sp-177/LEETCODE/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1753-path-with-minimum-effort](https://github.com/Sp-177/LEETCODE/tree/master/1753-path-with-minimum-effort) |
 | [2047-find-a-peak-element-ii](https://github.com/Sp-177/LEETCODE/tree/master/2047-find-a-peak-element-ii) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Sp-177/LEETCODE/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2737-row-with-maximum-ones](https://github.com/Sp-177/LEETCODE/tree/master/2737-row-with-maximum-ones) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Sp-177/LEETCODE/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 ## Topological Sort
@@ -432,6 +437,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | ------- |
 | [0744-network-delay-time](https://github.com/Sp-177/LEETCODE/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Sp-177/LEETCODE/tree/master/0803-cheapest-flights-within-k-stops) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Sp-177/LEETCODE/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 ## Prefix Sum
 |  |
 | ------- |
