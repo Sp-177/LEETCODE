@@ -1,34 +1,44 @@
 class Solution {
 public:
     int minimumObstacles(vector<vector<int>>& grid) {
-        int n=grid.size(),m=grid[0].size();
-        priority_queue<pair<int,vector<int>>,vector<pair<int,vector<int>>>,greater<pair<int,vector<int>>>>pq;
-        vector<vector<int>>visited(n,vector<int>(m,0)),dist(n,vector<int>(m,INT_MAX));
-        pq.push({0,{0,0}});
-        vector<vector<int>>dir={{1,0},{-1,0},{0,1},{0,-1}};
-        dist[0][0]=grid[0][0]!=0?1:0;
-        while(!pq.empty()){
-            auto it=pq.top();
+        int n = grid.size(), m = grid[0].size();
+
+        // Dijkstra-style min-heap
+        priority_queue<pair<int, pair<int, int>>, 
+                       vector<pair<int, pair<int, int>>>, 
+                       greater<pair<int, pair<int, int>>>> pq;
+
+        vector<vector<int>> dist(n, vector<int>(m, INT_MAX));
+        vector<vector<int>> dir = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
+
+        dist[0][0] = 0;
+        pq.push({0, {0, 0}});
+
+        while (!pq.empty()) {
+            int cost = pq.top().first;
+            int x = pq.top().second.first;
+            int y = pq.top().second.second;
             pq.pop();
-            int ans=it.first;
-            int x=it.second[0],y=it.second[1];
-            // cout<<ans<<" "<<x<<" "<<y<<endl;
-            if(visited[x][y])continue;
-            visited[x][y]=1;
-            if(x==n-1&&y==m-1)return ans;
-            for(auto d:dir){
-                int x1=x+d[0],y1=y+d[1];
-                if(x1>=0 && x1<n&&y1>=0 &&y1<m){
-                    int extra=(grid[x1][y1]!=0?1:0);
-                    if(dist[x1][y1]>ans+extra){
-                        dist[x1][y1]=ans+extra;
-                        pq.push({ans+extra,{x1,y1}});
+
+            if (x == n - 1 && y == m - 1)
+                return cost;
+
+            if (cost > dist[x][y])
+                continue;
+
+            for (int d = 0; d < 4; ++d) {
+                int nx = x + dir[d][0];
+                int ny = y + dir[d][1];
+                if (nx >= 0 && ny >= 0 && nx < n && ny < m) {
+                    int newCost = cost + grid[nx][ny];
+                    if (newCost < dist[nx][ny]) {
+                        dist[nx][ny] = newCost;
+                        pq.push({newCost, {nx, ny}});
                     }
                 }
             }
-
         }
-        return 0;
 
+        return -1;
     }
 };
