@@ -11,17 +11,27 @@
  */
 class Solution {
 public:
-    bool sol(TreeNode* root,int k,unordered_map<int,int>&m){
-        if(!root){return false;}
-        m[root->val]++;
-        bool s1=sol(root->left,k,m);
-        bool s2=false;
-        if(!s1){s2=sol(root->right,k,m);}
-        if(m[k-root->val]>0){if(root->val==k-root->val && m[root->val]>1){return true;}else if(root->val!=k-root->val){return true;}}
-        return s1||s2;
+    vector<int>ans;
+    void trav(TreeNode* root){
+        if(!root)return;
+        if(root->left){
+            trav(root->left);
+        }
+        ans.push_back(root->val);
+        if(root->right){
+            trav(root->right);
+        }
     }
     bool findTarget(TreeNode* root, int k) {
-        unordered_map<int,int>m;
-        return sol(root,k,m);
+        trav(root);
+        int i=0,j=ans.size()-1;
+        // for(int i:ans)cout<<i<<" ";
+        // cout<<endl;
+        while(i<j){
+            if(ans[i]+ans[j]>k)j--;
+            else if(ans[i]+ans[j]<k)i++;
+            else return true;
+        }
+        return false;
     }
 };
