@@ -68,6 +68,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0018-4sum](https://github.com/Sp-177/LEETCODE/tree/master/0018-4sum) |
 | [0045-jump-game-ii](https://github.com/Sp-177/LEETCODE/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Sp-177/LEETCODE/tree/master/0055-jump-game) |
+| [0056-merge-intervals](https://github.com/Sp-177/LEETCODE/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/Sp-177/LEETCODE/tree/master/0057-insert-interval) |
 | [0074-search-a-2d-matrix](https://github.com/Sp-177/LEETCODE/tree/master/0074-search-a-2d-matrix) |
 | [0085-maximal-rectangle](https://github.com/Sp-177/LEETCODE/tree/master/0085-maximal-rectangle) |
@@ -176,6 +177,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | ------- |
 | [0016-3sum-closest](https://github.com/Sp-177/LEETCODE/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Sp-177/LEETCODE/tree/master/0018-4sum) |
+| [0056-merge-intervals](https://github.com/Sp-177/LEETCODE/tree/master/0056-merge-intervals) |
 | [0169-majority-element](https://github.com/Sp-177/LEETCODE/tree/master/0169-majority-element) |
 | [0295-find-median-from-data-stream](https://github.com/Sp-177/LEETCODE/tree/master/0295-find-median-from-data-stream) |
 | [0368-largest-divisible-subset](https://github.com/Sp-177/LEETCODE/tree/master/0368-largest-divisible-subset) |
