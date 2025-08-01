@@ -73,6 +73,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0074-search-a-2d-matrix](https://github.com/Sp-177/LEETCODE/tree/master/0074-search-a-2d-matrix) |
 | [0085-maximal-rectangle](https://github.com/Sp-177/LEETCODE/tree/master/0085-maximal-rectangle) |
 | [0130-surrounded-regions](https://github.com/Sp-177/LEETCODE/tree/master/0130-surrounded-regions) |
+| [0135-candy](https://github.com/Sp-177/LEETCODE/tree/master/0135-candy) |
 | [0162-find-peak-element](https://github.com/Sp-177/LEETCODE/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/Sp-177/LEETCODE/tree/master/0169-majority-element) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Sp-177/LEETCODE/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
@@ -347,6 +348,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0044-wildcard-matching](https://github.com/Sp-177/LEETCODE/tree/master/0044-wildcard-matching) |
 | [0045-jump-game-ii](https://github.com/Sp-177/LEETCODE/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Sp-177/LEETCODE/tree/master/0055-jump-game) |
+| [0135-candy](https://github.com/Sp-177/LEETCODE/tree/master/0135-candy) |
 | [0410-split-array-largest-sum](https://github.com/Sp-177/LEETCODE/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Sp-177/LEETCODE/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Sp-177/LEETCODE/tree/master/0455-assign-cookies) |
