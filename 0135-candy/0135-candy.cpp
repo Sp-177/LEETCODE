@@ -1,21 +1,25 @@
 class Solution {
 public:
-    int candy(vector<int>& ratings) {
-        vector<int>l(ratings.size(),1);
-        vector<int>r(ratings.size(),1);
-        int ans=0;
-        for(int i=1;i<ratings.size();i++){
-            if(ratings[i-1]<ratings[i]){
-                l[i]=l[i-1]+1;
-            }
+    int candy(vector<int>& rat) {
+        int ans=rat.size(),n=ans;
+        vector<int>candy(n,1);
+        vector<pair<int,int>>rat_ind(n);
+        for(int i=0;i<n;i++){
+            rat_ind[i]={rat[i],i};
         }
-         for(int i=ratings.size()-2;i>=0;i--){
-             if(ratings[i+1]<ratings[i]){
-                r[i]=r[i+1]+1;
+        sort(rat_ind.begin(),rat_ind.end());
+        
+        for(int i=0;i<n;i++){
+            int ind=rat_ind[i].second;
+            if(ind-1>=0&& rat[ind-1]>rat[ind]&&candy[ind-1]<=candy[ind]){
+                 ans+=candy[ind]-candy[ind-1]+1;
+                candy[ind-1]=candy[ind]+1;
             }
-        }
-         for(int i=0;i<ratings.size();i++){
-            ans+=max(l[i],r[i]);
+            if(ind+1<n&& rat[ind+1]>rat[ind]&&candy[ind+1]<=candy[ind]){
+                ans+=candy[ind]-candy[ind+1]+1;
+                candy[ind+1]=candy[ind]+1;
+                
+            }
         }
         return ans;
     }
