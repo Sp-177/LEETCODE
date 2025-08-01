@@ -1,19 +1,22 @@
 class Solution {
 public:
-    vector<vector<int>> insert(vector<vector<int>>& iv, vector<int>& ni) {
-        iv.push_back(ni);
-        sort(iv.begin(),iv.end());
+    vector<vector<int>> insert(vector<vector<int>>& inv, vector<int>& ni) {
+        inv.push_back(ni);
+        sort(inv.begin(),inv.end());
         vector<vector<int>>ans;
-        ans.push_back(iv[0]);
-        for(int i=1;i<iv.size();i++){
-            int last=ans.back()[1];
-            if(iv[i][0]<=last){
-                ans.back()[1]=max(last,iv[i][1]);
+        int start=inv[0][0],end=inv[0][1];
+        int n=inv.size();
+        for(int i=1;i<n;i++){
+            int s=inv[i][0],e=inv[i][1];
+            if(start<=s&&s<=end){
+                end=max(e,end);
             }
             else{
-                ans.push_back(iv[i]);
+                ans.push_back({start,end});
+                start=s;end=e;
             }
         }
+        ans.push_back({start,end});
         return ans;
     }
 };
