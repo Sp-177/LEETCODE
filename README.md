@@ -82,6 +82,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0240-search-a-2d-matrix-ii](https://github.com/Sp-177/LEETCODE/tree/master/0240-search-a-2d-matrix-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/Sp-177/LEETCODE/tree/master/0300-longest-increasing-subsequence) |
 | [0312-burst-balloons](https://github.com/Sp-177/LEETCODE/tree/master/0312-burst-balloons) |
+| [0347-top-k-frequent-elements](https://github.com/Sp-177/LEETCODE/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/Sp-177/LEETCODE/tree/master/0368-largest-divisible-subset) |
 | [0410-split-array-largest-sum](https://github.com/Sp-177/LEETCODE/tree/master/0410-split-array-largest-sum) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Sp-177/LEETCODE/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
@@ -147,6 +148,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0127-word-ladder](https://github.com/Sp-177/LEETCODE/tree/master/0127-word-ladder) |
 | [0169-majority-element](https://github.com/Sp-177/LEETCODE/tree/master/0169-majority-element) |
 | [0208-implement-trie-prefix-tree](https://github.com/Sp-177/LEETCODE/tree/master/0208-implement-trie-prefix-tree) |
+| [0347-top-k-frequent-elements](https://github.com/Sp-177/LEETCODE/tree/master/0347-top-k-frequent-elements) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Sp-177/LEETCODE/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0424-longest-repeating-character-replacement](https://github.com/Sp-177/LEETCODE/tree/master/0424-longest-repeating-character-replacement) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Sp-177/LEETCODE/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -171,6 +173,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0004-median-of-two-sorted-arrays](https://github.com/Sp-177/LEETCODE/tree/master/0004-median-of-two-sorted-arrays) |
 | [0169-majority-element](https://github.com/Sp-177/LEETCODE/tree/master/0169-majority-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Sp-177/LEETCODE/tree/master/0240-search-a-2d-matrix-ii) |
+| [0347-top-k-frequent-elements](https://github.com/Sp-177/LEETCODE/tree/master/0347-top-k-frequent-elements) |
 | [0493-reverse-pairs](https://github.com/Sp-177/LEETCODE/tree/master/0493-reverse-pairs) |
 | [2280-count-good-triplets-in-an-array](https://github.com/Sp-177/LEETCODE/tree/master/2280-count-good-triplets-in-an-array) |
 ## Sorting
@@ -181,6 +184,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0056-merge-intervals](https://github.com/Sp-177/LEETCODE/tree/master/0056-merge-intervals) |
 | [0169-majority-element](https://github.com/Sp-177/LEETCODE/tree/master/0169-majority-element) |
 | [0295-find-median-from-data-stream](https://github.com/Sp-177/LEETCODE/tree/master/0295-find-median-from-data-stream) |
+| [0347-top-k-frequent-elements](https://github.com/Sp-177/LEETCODE/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/Sp-177/LEETCODE/tree/master/0368-largest-divisible-subset) |
 | [0435-non-overlapping-intervals](https://github.com/Sp-177/LEETCODE/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Sp-177/LEETCODE/tree/master/0455-assign-cookies) |
@@ -193,6 +197,7 @@ Feel free to customize this README further to suit your preferences and showcase
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Sp-177/LEETCODE/tree/master/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/Sp-177/LEETCODE/tree/master/0347-top-k-frequent-elements) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Sp-177/LEETCODE/tree/master/1034-subarrays-with-k-different-integers) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Sp-177/LEETCODE/tree/master/2494-sum-of-prefix-scores-of-strings) |
 ## Two Pointers
@@ -333,6 +338,7 @@ Feel free to customize this README further to suit your preferences and showcase
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/Sp-177/LEETCODE/tree/master/0295-find-median-from-data-stream) |
+| [0347-top-k-frequent-elements](https://github.com/Sp-177/LEETCODE/tree/master/0347-top-k-frequent-elements) |
 | [0744-network-delay-time](https://github.com/Sp-177/LEETCODE/tree/master/0744-network-delay-time) |
 | [0794-swim-in-rising-water](https://github.com/Sp-177/LEETCODE/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Sp-177/LEETCODE/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -615,4 +621,12 @@ Feel free to customize this README further to suit your preferences and showcase
 |  |
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/Sp-177/LEETCODE/tree/master/0173-binary-search-tree-iterator) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/Sp-177/LEETCODE/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/Sp-177/LEETCODE/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
