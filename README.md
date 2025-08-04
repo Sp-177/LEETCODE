@@ -66,6 +66,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0004-median-of-two-sorted-arrays](https://github.com/Sp-177/LEETCODE/tree/master/0004-median-of-two-sorted-arrays) |
 | [0016-3sum-closest](https://github.com/Sp-177/LEETCODE/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Sp-177/LEETCODE/tree/master/0018-4sum) |
+| [0031-next-permutation](https://github.com/Sp-177/LEETCODE/tree/master/0031-next-permutation) |
 | [0045-jump-game-ii](https://github.com/Sp-177/LEETCODE/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Sp-177/LEETCODE/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/Sp-177/LEETCODE/tree/master/0056-merge-intervals) |
@@ -219,6 +220,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0016-3sum-closest](https://github.com/Sp-177/LEETCODE/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Sp-177/LEETCODE/tree/master/0018-4sum) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Sp-177/LEETCODE/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0031-next-permutation](https://github.com/Sp-177/LEETCODE/tree/master/0031-next-permutation) |
 | [0295-find-median-from-data-stream](https://github.com/Sp-177/LEETCODE/tree/master/0295-find-median-from-data-stream) |
 | [0455-assign-cookies](https://github.com/Sp-177/LEETCODE/tree/master/0455-assign-cookies) |
 | [0647-palindromic-substrings](https://github.com/Sp-177/LEETCODE/tree/master/0647-palindromic-substrings) |
