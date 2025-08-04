@@ -74,6 +74,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0085-maximal-rectangle](https://github.com/Sp-177/LEETCODE/tree/master/0085-maximal-rectangle) |
 | [0130-surrounded-regions](https://github.com/Sp-177/LEETCODE/tree/master/0130-surrounded-regions) |
 | [0135-candy](https://github.com/Sp-177/LEETCODE/tree/master/0135-candy) |
+| [0152-maximum-product-subarray](https://github.com/Sp-177/LEETCODE/tree/master/0152-maximum-product-subarray) |
 | [0162-find-peak-element](https://github.com/Sp-177/LEETCODE/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/Sp-177/LEETCODE/tree/master/0169-majority-element) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Sp-177/LEETCODE/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
@@ -293,6 +294,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0115-distinct-subsequences](https://github.com/Sp-177/LEETCODE/tree/master/0115-distinct-subsequences) |
 | [0131-palindrome-partitioning](https://github.com/Sp-177/LEETCODE/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/Sp-177/LEETCODE/tree/master/0132-palindrome-partitioning-ii) |
+| [0152-maximum-product-subarray](https://github.com/Sp-177/LEETCODE/tree/master/0152-maximum-product-subarray) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Sp-177/LEETCODE/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0213-house-robber-ii](https://github.com/Sp-177/LEETCODE/tree/master/0213-house-robber-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/Sp-177/LEETCODE/tree/master/0300-longest-increasing-subsequence) |
