@@ -126,6 +126,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [2051-longest-common-subpath](https://github.com/Sp-177/LEETCODE/tree/master/2051-longest-common-subpath) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Sp-177/LEETCODE/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2249-count-the-hidden-sequences](https://github.com/Sp-177/LEETCODE/tree/master/2249-count-the-hidden-sequences) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/Sp-177/LEETCODE/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/Sp-177/LEETCODE/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
 | [2280-count-good-triplets-in-an-array](https://github.com/Sp-177/LEETCODE/tree/master/2280-count-good-triplets-in-an-array) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Sp-177/LEETCODE/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
@@ -224,6 +225,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Sp-177/LEETCODE/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0868-push-dominoes](https://github.com/Sp-177/LEETCODE/tree/master/0868-push-dominoes) |
 | [1129-longest-string-chain](https://github.com/Sp-177/LEETCODE/tree/master/1129-longest-string-chain) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/Sp-177/LEETCODE/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Sp-177/LEETCODE/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Binary Search
 |  |
@@ -565,6 +567,7 @@ Feel free to customize this README further to suit your preferences and showcase
 |  |
 | ------- |
 | [2048-build-array-from-permutation](https://github.com/Sp-177/LEETCODE/tree/master/2048-build-array-from-permutation) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/Sp-177/LEETCODE/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Backtracking
 |  |
 | ------- |
