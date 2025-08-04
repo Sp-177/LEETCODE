@@ -1,34 +1,32 @@
 class Solution {
 public:
-bool check(map<char,int>&m,map<char,int>&n){
-    for(auto  i:m){
-        if(n[i.first]<i.second)return false;
-    }
-    return true;
-}
     string minWindow(string s, string t) {
         int n=s.size(),m=t.size();
-        if(n<m)return "";
-        map<char,int>ma,new_ma;
-        for(char c:t)ma[c]++;
+        if(m>n)return "";
+        int cnt=m;
+        unordered_map<char,int>freq;
+        for(char c:t)freq[c]--;
         int start=0,end=0;
-        int l=0,len=INT_MAX;
-        int cnt=0;
-        while(start<n&&end<n){
-            // cout<<start<<' '<<end<<endl;
-            if(ma[s[end]]>0)cnt++;
-            ma[s[end]]--;
-            while(cnt==m){
-                if(len>=end-start+1){
-                    len=end-start+1;
+        int ans=INT_MAX;
+        int l=-1,r=-1;
+        while(start<n){
+            while(cnt>0&&end<n){
+                freq[s[end]]++;
+                if(freq[s[end]]<=0)cnt--;
+                end++;
+            }
+            if(cnt==0){
+                if(ans>end-start){
+                    ans=end-start;
+                    r=end;
                     l=start;
                 }
-                ma[s[start]]++;
-                if(ma[s[start++]]>0)cnt--;
-                
             }
-            end++;
+            freq[s[start]]--;
+            if(freq[s[start]]<0)cnt++;
+            start++;
         }
-        return len==INT_MAX?"":s.substr(l,len);
+        if(ans==INT_MAX)return "";
+        return s.substr(l,r-l);
     }
 };
