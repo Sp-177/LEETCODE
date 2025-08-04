@@ -91,6 +91,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0486-predict-the-winner](https://github.com/Sp-177/LEETCODE/tree/master/0486-predict-the-winner) |
 | [0493-reverse-pairs](https://github.com/Sp-177/LEETCODE/tree/master/0493-reverse-pairs) |
 | [0542-01-matrix](https://github.com/Sp-177/LEETCODE/tree/master/0542-01-matrix) |
+| [0621-task-scheduler](https://github.com/Sp-177/LEETCODE/tree/master/0621-task-scheduler) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Sp-177/LEETCODE/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Sp-177/LEETCODE/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0720-longest-word-in-dictionary](https://github.com/Sp-177/LEETCODE/tree/master/0720-longest-word-in-dictionary) |
@@ -153,6 +154,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0347-top-k-frequent-elements](https://github.com/Sp-177/LEETCODE/tree/master/0347-top-k-frequent-elements) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Sp-177/LEETCODE/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0424-longest-repeating-character-replacement](https://github.com/Sp-177/LEETCODE/tree/master/0424-longest-repeating-character-replacement) |
+| [0621-task-scheduler](https://github.com/Sp-177/LEETCODE/tree/master/0621-task-scheduler) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Sp-177/LEETCODE/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0677-map-sum-pairs](https://github.com/Sp-177/LEETCODE/tree/master/0677-map-sum-pairs) |
 | [0720-longest-word-in-dictionary](https://github.com/Sp-177/LEETCODE/tree/master/0720-longest-word-in-dictionary) |
@@ -192,6 +194,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0368-largest-divisible-subset](https://github.com/Sp-177/LEETCODE/tree/master/0368-largest-divisible-subset) |
 | [0435-non-overlapping-intervals](https://github.com/Sp-177/LEETCODE/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Sp-177/LEETCODE/tree/master/0455-assign-cookies) |
+| [0621-task-scheduler](https://github.com/Sp-177/LEETCODE/tree/master/0621-task-scheduler) |
 | [0720-longest-word-in-dictionary](https://github.com/Sp-177/LEETCODE/tree/master/0720-longest-word-in-dictionary) |
 | [0876-hand-of-straights](https://github.com/Sp-177/LEETCODE/tree/master/0876-hand-of-straights) |
 | [1129-longest-string-chain](https://github.com/Sp-177/LEETCODE/tree/master/1129-longest-string-chain) |
@@ -204,6 +207,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | ------- |
 | [0169-majority-element](https://github.com/Sp-177/LEETCODE/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/Sp-177/LEETCODE/tree/master/0347-top-k-frequent-elements) |
+| [0621-task-scheduler](https://github.com/Sp-177/LEETCODE/tree/master/0621-task-scheduler) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Sp-177/LEETCODE/tree/master/1034-subarrays-with-k-different-integers) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Sp-177/LEETCODE/tree/master/2494-sum-of-prefix-scores-of-strings) |
 ## Two Pointers
@@ -345,6 +349,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/Sp-177/LEETCODE/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/Sp-177/LEETCODE/tree/master/0347-top-k-frequent-elements) |
+| [0621-task-scheduler](https://github.com/Sp-177/LEETCODE/tree/master/0621-task-scheduler) |
 | [0744-network-delay-time](https://github.com/Sp-177/LEETCODE/tree/master/0744-network-delay-time) |
 | [0794-swim-in-rising-water](https://github.com/Sp-177/LEETCODE/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Sp-177/LEETCODE/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -364,6 +369,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0410-split-array-largest-sum](https://github.com/Sp-177/LEETCODE/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Sp-177/LEETCODE/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Sp-177/LEETCODE/tree/master/0455-assign-cookies) |
+| [0621-task-scheduler](https://github.com/Sp-177/LEETCODE/tree/master/0621-task-scheduler) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Sp-177/LEETCODE/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0797-rabbits-in-forest](https://github.com/Sp-177/LEETCODE/tree/master/0797-rabbits-in-forest) |
 | [0876-hand-of-straights](https://github.com/Sp-177/LEETCODE/tree/master/0876-hand-of-straights) |
