@@ -106,6 +106,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0854-making-a-large-island](https://github.com/Sp-177/LEETCODE/tree/master/0854-making-a-large-island) |
 | [0876-hand-of-straights](https://github.com/Sp-177/LEETCODE/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/Sp-177/LEETCODE/tree/master/0890-lemonade-change) |
+| [0907-koko-eating-bananas](https://github.com/Sp-177/LEETCODE/tree/master/0907-koko-eating-bananas) |
 | [0940-fruit-into-baskets](https://github.com/Sp-177/LEETCODE/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/Sp-177/LEETCODE/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Sp-177/LEETCODE/tree/master/1034-subarrays-with-k-different-integers) |
@@ -246,6 +247,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0493-reverse-pairs](https://github.com/Sp-177/LEETCODE/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Sp-177/LEETCODE/tree/master/0540-single-element-in-a-sorted-array) |
 | [0794-swim-in-rising-water](https://github.com/Sp-177/LEETCODE/tree/master/0794-swim-in-rising-water) |
+| [0907-koko-eating-bananas](https://github.com/Sp-177/LEETCODE/tree/master/0907-koko-eating-bananas) |
 | [1046-max-consecutive-ones-iii](https://github.com/Sp-177/LEETCODE/tree/master/1046-max-consecutive-ones-iii) |
 | [1753-path-with-minimum-effort](https://github.com/Sp-177/LEETCODE/tree/master/1753-path-with-minimum-effort) |
 | [2047-find-a-peak-element-ii](https://github.com/Sp-177/LEETCODE/tree/master/2047-find-a-peak-element-ii) |
