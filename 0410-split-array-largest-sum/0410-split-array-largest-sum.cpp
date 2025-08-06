@@ -1,33 +1,28 @@
 class Solution {
 public:
-    int sol(vector<int>&nums,int sum){
-        int cnt=1,part=0;
-        for(int i:nums){
-            // if(sum<i)return INT_MAX;
-            if(part+i<=sum)part+=i;
-            else{
-                part=i;cnt++;
-            }
-        }
-        return cnt;
-    }
     int splitArray(vector<int>& nums, int k) {
-        int low=INT_MIN,high=0;
-        for(int i:nums){
-            low=max(low,i);
-            high+=i;
-        }
-        int ans=INT_MAX;
-        while(low<=high){
-            int mid=(low+high)/2;
-            int cnt=sol(nums,mid);
-            // cout<<cnt<<" "<<mid<<endl;
-           
-            if(cnt>k){
-                low=mid+1;
+        int n=nums.size();
+        int low=*max_element(nums.begin(),nums.end()),high=accumulate(nums.begin(),nums.end(),0);
+        auto p=[&](int sum)->bool{
+            int cnt=1;
+            int add=0;
+            for(int i:nums){
+                if(add+i<=sum){
+                    add+=i;
+                }
+                else{
+                    add=i;
+                    cnt++;
+                }
             }
-            else high=mid-1;
+            return cnt<=k;
+        };
+        while(low<=high){
+            int mid=(low+high)>>1;
+            if(p(mid))high=mid-1;
+            else low=mid+1;
         }
         return low;
+
     }
 };
