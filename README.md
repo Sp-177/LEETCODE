@@ -229,6 +229,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0018-4sum](https://github.com/Sp-177/LEETCODE/tree/master/0018-4sum) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Sp-177/LEETCODE/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0031-next-permutation](https://github.com/Sp-177/LEETCODE/tree/master/0031-next-permutation) |
+| [0061-rotate-list](https://github.com/Sp-177/LEETCODE/tree/master/0061-rotate-list) |
 | [0295-find-median-from-data-stream](https://github.com/Sp-177/LEETCODE/tree/master/0295-find-median-from-data-stream) |
 | [0455-assign-cookies](https://github.com/Sp-177/LEETCODE/tree/master/0455-assign-cookies) |
 | [0647-palindromic-substrings](https://github.com/Sp-177/LEETCODE/tree/master/0647-palindromic-substrings) |
@@ -666,4 +667,8 @@ Feel free to customize this README further to suit your preferences and showcase
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Sp-177/LEETCODE/tree/master/0347-top-k-frequent-elements) |
+## Linked List
+|  |
+| ------- |
+| [0061-rotate-list](https://github.com/Sp-177/LEETCODE/tree/master/0061-rotate-list) |
 <!---LeetCode Topics End-->
