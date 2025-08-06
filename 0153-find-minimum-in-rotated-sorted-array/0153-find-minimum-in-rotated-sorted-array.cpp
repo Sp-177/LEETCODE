@@ -15,7 +15,13 @@ public:
             return min({func(low,mid-1,nums),func(mid+1,high,nums),m});
     }
     int findMin(vector<int>& nums) {
-        int n=nums.size();
-        return func(0,n-1,nums);
+    int low = 0, high = nums.size() - 1;
+    while (low < high) {
+        int mid = (low + high) / 2;
+        if (nums[mid] > nums[high]) low = mid + 1;
+        else high = mid;
     }
+    return nums[low];
+}
+
 };
