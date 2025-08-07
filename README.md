@@ -96,6 +96,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0455-assign-cookies](https://github.com/Sp-177/LEETCODE/tree/master/0455-assign-cookies) |
 | [0486-predict-the-winner](https://github.com/Sp-177/LEETCODE/tree/master/0486-predict-the-winner) |
 | [0493-reverse-pairs](https://github.com/Sp-177/LEETCODE/tree/master/0493-reverse-pairs) |
+| [0496-next-greater-element-i](https://github.com/Sp-177/LEETCODE/tree/master/0496-next-greater-element-i) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Sp-177/LEETCODE/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/Sp-177/LEETCODE/tree/master/0542-01-matrix) |
 | [0621-task-scheduler](https://github.com/Sp-177/LEETCODE/tree/master/0621-task-scheduler) |
@@ -166,6 +167,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0347-top-k-frequent-elements](https://github.com/Sp-177/LEETCODE/tree/master/0347-top-k-frequent-elements) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Sp-177/LEETCODE/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0424-longest-repeating-character-replacement](https://github.com/Sp-177/LEETCODE/tree/master/0424-longest-repeating-character-replacement) |
+| [0496-next-greater-element-i](https://github.com/Sp-177/LEETCODE/tree/master/0496-next-greater-element-i) |
 | [0621-task-scheduler](https://github.com/Sp-177/LEETCODE/tree/master/0621-task-scheduler) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Sp-177/LEETCODE/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0677-map-sum-pairs](https://github.com/Sp-177/LEETCODE/tree/master/0677-map-sum-pairs) |
@@ -622,6 +624,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | ------- |
 | [0085-maximal-rectangle](https://github.com/Sp-177/LEETCODE/tree/master/0085-maximal-rectangle) |
 | [0173-binary-search-tree-iterator](https://github.com/Sp-177/LEETCODE/tree/master/0173-binary-search-tree-iterator) |
+| [0496-next-greater-element-i](https://github.com/Sp-177/LEETCODE/tree/master/0496-next-greater-element-i) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Sp-177/LEETCODE/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1197-parsing-a-boolean-expression](https://github.com/Sp-177/LEETCODE/tree/master/1197-parsing-a-boolean-expression) |
 ## Recursion
@@ -641,6 +644,7 @@ Feel free to customize this README further to suit your preferences and showcase
 |  |
 | ------- |
 | [0085-maximal-rectangle](https://github.com/Sp-177/LEETCODE/tree/master/0085-maximal-rectangle) |
+| [0496-next-greater-element-i](https://github.com/Sp-177/LEETCODE/tree/master/0496-next-greater-element-i) |
 ## Biconnected Component
 |  |
 | ------- |
