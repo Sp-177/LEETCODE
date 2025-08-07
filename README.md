@@ -630,6 +630,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0010-regular-expression-matching](https://github.com/Sp-177/LEETCODE/tree/master/0010-regular-expression-matching) |
 | [0025-reverse-nodes-in-k-group](https://github.com/Sp-177/LEETCODE/tree/master/0025-reverse-nodes-in-k-group) |
 | [0044-wildcard-matching](https://github.com/Sp-177/LEETCODE/tree/master/0044-wildcard-matching) |
+| [0206-reverse-linked-list](https://github.com/Sp-177/LEETCODE/tree/master/0206-reverse-linked-list) |
 | [0486-predict-the-winner](https://github.com/Sp-177/LEETCODE/tree/master/0486-predict-the-winner) |
 | [1197-parsing-a-boolean-expression](https://github.com/Sp-177/LEETCODE/tree/master/1197-parsing-a-boolean-expression) |
 ## Game Theory
@@ -676,4 +677,5 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0025-reverse-nodes-in-k-group](https://github.com/Sp-177/LEETCODE/tree/master/0025-reverse-nodes-in-k-group) |
 | [0061-rotate-list](https://github.com/Sp-177/LEETCODE/tree/master/0061-rotate-list) |
 | [0142-linked-list-cycle-ii](https://github.com/Sp-177/LEETCODE/tree/master/0142-linked-list-cycle-ii) |
+| [0206-reverse-linked-list](https://github.com/Sp-177/LEETCODE/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
