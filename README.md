@@ -292,6 +292,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0208-implement-trie-prefix-tree](https://github.com/Sp-177/LEETCODE/tree/master/0208-implement-trie-prefix-tree) |
 | [0212-word-search-ii](https://github.com/Sp-177/LEETCODE/tree/master/0212-word-search-ii) |
 | [0214-shortest-palindrome](https://github.com/Sp-177/LEETCODE/tree/master/0214-shortest-palindrome) |
+| [0402-remove-k-digits](https://github.com/Sp-177/LEETCODE/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/Sp-177/LEETCODE/tree/master/0424-longest-repeating-character-replacement) |
 | [0516-longest-palindromic-subsequence](https://github.com/Sp-177/LEETCODE/tree/master/0516-longest-palindromic-subsequence) |
 | [0556-next-greater-element-iii](https://github.com/Sp-177/LEETCODE/tree/master/0556-next-greater-element-iii) |
@@ -400,6 +401,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0045-jump-game-ii](https://github.com/Sp-177/LEETCODE/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Sp-177/LEETCODE/tree/master/0055-jump-game) |
 | [0135-candy](https://github.com/Sp-177/LEETCODE/tree/master/0135-candy) |
+| [0402-remove-k-digits](https://github.com/Sp-177/LEETCODE/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/Sp-177/LEETCODE/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Sp-177/LEETCODE/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Sp-177/LEETCODE/tree/master/0455-assign-cookies) |
@@ -633,6 +635,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | ------- |
 | [0085-maximal-rectangle](https://github.com/Sp-177/LEETCODE/tree/master/0085-maximal-rectangle) |
 | [0173-binary-search-tree-iterator](https://github.com/Sp-177/LEETCODE/tree/master/0173-binary-search-tree-iterator) |
+| [0402-remove-k-digits](https://github.com/Sp-177/LEETCODE/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/Sp-177/LEETCODE/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Sp-177/LEETCODE/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/Sp-177/LEETCODE/tree/master/0735-asteroid-collision) |
@@ -657,6 +660,7 @@ Feel free to customize this README further to suit your preferences and showcase
 |  |
 | ------- |
 | [0085-maximal-rectangle](https://github.com/Sp-177/LEETCODE/tree/master/0085-maximal-rectangle) |
+| [0402-remove-k-digits](https://github.com/Sp-177/LEETCODE/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/Sp-177/LEETCODE/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Sp-177/LEETCODE/tree/master/0503-next-greater-element-ii) |
 | [0943-sum-of-subarray-minimums](https://github.com/Sp-177/LEETCODE/tree/master/0943-sum-of-subarray-minimums) |
