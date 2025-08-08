@@ -105,6 +105,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Sp-177/LEETCODE/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0720-longest-word-in-dictionary](https://github.com/Sp-177/LEETCODE/tree/master/0720-longest-word-in-dictionary) |
 | [0733-flood-fill](https://github.com/Sp-177/LEETCODE/tree/master/0733-flood-fill) |
+| [0735-asteroid-collision](https://github.com/Sp-177/LEETCODE/tree/master/0735-asteroid-collision) |
 | [0794-swim-in-rising-water](https://github.com/Sp-177/LEETCODE/tree/master/0794-swim-in-rising-water) |
 | [0797-rabbits-in-forest](https://github.com/Sp-177/LEETCODE/tree/master/0797-rabbits-in-forest) |
 | [0854-making-a-large-island](https://github.com/Sp-177/LEETCODE/tree/master/0854-making-a-large-island) |
@@ -595,6 +596,7 @@ Feel free to customize this README further to suit your preferences and showcase
 ## Simulation
 |  |
 | ------- |
+| [0735-asteroid-collision](https://github.com/Sp-177/LEETCODE/tree/master/0735-asteroid-collision) |
 | [2048-build-array-from-permutation](https://github.com/Sp-177/LEETCODE/tree/master/2048-build-array-from-permutation) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Sp-177/LEETCODE/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Backtracking
@@ -632,6 +634,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0173-binary-search-tree-iterator](https://github.com/Sp-177/LEETCODE/tree/master/0173-binary-search-tree-iterator) |
 | [0496-next-greater-element-i](https://github.com/Sp-177/LEETCODE/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Sp-177/LEETCODE/tree/master/0503-next-greater-element-ii) |
+| [0735-asteroid-collision](https://github.com/Sp-177/LEETCODE/tree/master/0735-asteroid-collision) |
 | [0943-sum-of-subarray-minimums](https://github.com/Sp-177/LEETCODE/tree/master/0943-sum-of-subarray-minimums) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Sp-177/LEETCODE/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1197-parsing-a-boolean-expression](https://github.com/Sp-177/LEETCODE/tree/master/1197-parsing-a-boolean-expression) |
