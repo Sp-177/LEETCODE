@@ -138,6 +138,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [2048-build-array-from-permutation](https://github.com/Sp-177/LEETCODE/tree/master/2048-build-array-from-permutation) |
 | [2051-longest-common-subpath](https://github.com/Sp-177/LEETCODE/tree/master/2051-longest-common-subpath) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/Sp-177/LEETCODE/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
+| [2227-sum-of-subarray-ranges](https://github.com/Sp-177/LEETCODE/tree/master/2227-sum-of-subarray-ranges) |
 | [2249-count-the-hidden-sequences](https://github.com/Sp-177/LEETCODE/tree/master/2249-count-the-hidden-sequences) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Sp-177/LEETCODE/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/Sp-177/LEETCODE/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
@@ -638,6 +639,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0943-sum-of-subarray-minimums](https://github.com/Sp-177/LEETCODE/tree/master/0943-sum-of-subarray-minimums) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Sp-177/LEETCODE/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1197-parsing-a-boolean-expression](https://github.com/Sp-177/LEETCODE/tree/master/1197-parsing-a-boolean-expression) |
+| [2227-sum-of-subarray-ranges](https://github.com/Sp-177/LEETCODE/tree/master/2227-sum-of-subarray-ranges) |
 ## Recursion
 |  |
 | ------- |
@@ -658,6 +660,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0496-next-greater-element-i](https://github.com/Sp-177/LEETCODE/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Sp-177/LEETCODE/tree/master/0503-next-greater-element-ii) |
 | [0943-sum-of-subarray-minimums](https://github.com/Sp-177/LEETCODE/tree/master/0943-sum-of-subarray-minimums) |
+| [2227-sum-of-subarray-ranges](https://github.com/Sp-177/LEETCODE/tree/master/2227-sum-of-subarray-ranges) |
 ## Biconnected Component
 |  |
 | ------- |
