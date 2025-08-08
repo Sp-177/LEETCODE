@@ -237,6 +237,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0142-linked-list-cycle-ii](https://github.com/Sp-177/LEETCODE/tree/master/0142-linked-list-cycle-ii) |
 | [0295-find-median-from-data-stream](https://github.com/Sp-177/LEETCODE/tree/master/0295-find-median-from-data-stream) |
 | [0455-assign-cookies](https://github.com/Sp-177/LEETCODE/tree/master/0455-assign-cookies) |
+| [0556-next-greater-element-iii](https://github.com/Sp-177/LEETCODE/tree/master/0556-next-greater-element-iii) |
 | [0647-palindromic-substrings](https://github.com/Sp-177/LEETCODE/tree/master/0647-palindromic-substrings) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Sp-177/LEETCODE/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0868-push-dominoes](https://github.com/Sp-177/LEETCODE/tree/master/0868-push-dominoes) |
@@ -290,6 +291,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0214-shortest-palindrome](https://github.com/Sp-177/LEETCODE/tree/master/0214-shortest-palindrome) |
 | [0424-longest-repeating-character-replacement](https://github.com/Sp-177/LEETCODE/tree/master/0424-longest-repeating-character-replacement) |
 | [0516-longest-palindromic-subsequence](https://github.com/Sp-177/LEETCODE/tree/master/0516-longest-palindromic-subsequence) |
+| [0556-next-greater-element-iii](https://github.com/Sp-177/LEETCODE/tree/master/0556-next-greater-element-iii) |
 | [0583-delete-operation-for-two-strings](https://github.com/Sp-177/LEETCODE/tree/master/0583-delete-operation-for-two-strings) |
 | [0647-palindromic-substrings](https://github.com/Sp-177/LEETCODE/tree/master/0647-palindromic-substrings) |
 | [0677-map-sum-pairs](https://github.com/Sp-177/LEETCODE/tree/master/0677-map-sum-pairs) |
@@ -554,6 +556,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | ------- |
 | [0368-largest-divisible-subset](https://github.com/Sp-177/LEETCODE/tree/master/0368-largest-divisible-subset) |
 | [0486-predict-the-winner](https://github.com/Sp-177/LEETCODE/tree/master/0486-predict-the-winner) |
+| [0556-next-greater-element-iii](https://github.com/Sp-177/LEETCODE/tree/master/0556-next-greater-element-iii) |
 | [0797-rabbits-in-forest](https://github.com/Sp-177/LEETCODE/tree/master/0797-rabbits-in-forest) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Sp-177/LEETCODE/tree/master/1370-count-number-of-nice-subarrays) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/Sp-177/LEETCODE/tree/master/1421-find-numbers-with-even-number-of-digits) |
