@@ -75,6 +75,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0056-merge-intervals](https://github.com/Sp-177/LEETCODE/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/Sp-177/LEETCODE/tree/master/0057-insert-interval) |
 | [0074-search-a-2d-matrix](https://github.com/Sp-177/LEETCODE/tree/master/0074-search-a-2d-matrix) |
+| [0084-largest-rectangle-in-histogram](https://github.com/Sp-177/LEETCODE/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/Sp-177/LEETCODE/tree/master/0085-maximal-rectangle) |
 | [0130-surrounded-regions](https://github.com/Sp-177/LEETCODE/tree/master/0130-surrounded-regions) |
 | [0135-candy](https://github.com/Sp-177/LEETCODE/tree/master/0135-candy) |
@@ -633,6 +634,7 @@ Feel free to customize this README further to suit your preferences and showcase
 ## Stack
 |  |
 | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/Sp-177/LEETCODE/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/Sp-177/LEETCODE/tree/master/0085-maximal-rectangle) |
 | [0173-binary-search-tree-iterator](https://github.com/Sp-177/LEETCODE/tree/master/0173-binary-search-tree-iterator) |
 | [0402-remove-k-digits](https://github.com/Sp-177/LEETCODE/tree/master/0402-remove-k-digits) |
@@ -659,6 +661,7 @@ Feel free to customize this README further to suit your preferences and showcase
 ## Monotonic Stack
 |  |
 | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/Sp-177/LEETCODE/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/Sp-177/LEETCODE/tree/master/0085-maximal-rectangle) |
 | [0402-remove-k-digits](https://github.com/Sp-177/LEETCODE/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/Sp-177/LEETCODE/tree/master/0496-next-greater-element-i) |
