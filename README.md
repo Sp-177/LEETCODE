@@ -168,6 +168,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0076-minimum-window-substring](https://github.com/Sp-177/LEETCODE/tree/master/0076-minimum-window-substring) |
 | [0127-word-ladder](https://github.com/Sp-177/LEETCODE/tree/master/0127-word-ladder) |
 | [0142-linked-list-cycle-ii](https://github.com/Sp-177/LEETCODE/tree/master/0142-linked-list-cycle-ii) |
+| [0146-lru-cache](https://github.com/Sp-177/LEETCODE/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/Sp-177/LEETCODE/tree/master/0169-majority-element) |
 | [0208-implement-trie-prefix-tree](https://github.com/Sp-177/LEETCODE/tree/master/0208-implement-trie-prefix-tree) |
 | [0347-top-k-frequent-elements](https://github.com/Sp-177/LEETCODE/tree/master/0347-top-k-frequent-elements) |
@@ -379,6 +380,7 @@ Feel free to customize this README further to suit your preferences and showcase
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/Sp-177/LEETCODE/tree/master/0146-lru-cache) |
 | [0173-binary-search-tree-iterator](https://github.com/Sp-177/LEETCODE/tree/master/0173-binary-search-tree-iterator) |
 | [0208-implement-trie-prefix-tree](https://github.com/Sp-177/LEETCODE/tree/master/0208-implement-trie-prefix-tree) |
 | [0295-find-median-from-data-stream](https://github.com/Sp-177/LEETCODE/tree/master/0295-find-median-from-data-stream) |
@@ -709,5 +711,10 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0025-reverse-nodes-in-k-group](https://github.com/Sp-177/LEETCODE/tree/master/0025-reverse-nodes-in-k-group) |
 | [0061-rotate-list](https://github.com/Sp-177/LEETCODE/tree/master/0061-rotate-list) |
 | [0142-linked-list-cycle-ii](https://github.com/Sp-177/LEETCODE/tree/master/0142-linked-list-cycle-ii) |
+| [0146-lru-cache](https://github.com/Sp-177/LEETCODE/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/Sp-177/LEETCODE/tree/master/0206-reverse-linked-list) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/Sp-177/LEETCODE/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
