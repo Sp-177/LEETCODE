@@ -720,6 +720,7 @@ Feel free to customize this README further to suit your preferences and showcase
 ## Database
 |  |
 | ------- |
+| [0570-managers-with-at-least-5-direct-reports](https://github.com/Sp-177/LEETCODE/tree/master/0570-managers-with-at-least-5-direct-reports) |
 | [0577-employee-bonus](https://github.com/Sp-177/LEETCODE/tree/master/0577-employee-bonus) |
 | [0584-find-customer-referee](https://github.com/Sp-177/LEETCODE/tree/master/0584-find-customer-referee) |
 | [1258-article-views-i](https://github.com/Sp-177/LEETCODE/tree/master/1258-article-views-i) |
