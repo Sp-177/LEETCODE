@@ -723,6 +723,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [0570-managers-with-at-least-5-direct-reports](https://github.com/Sp-177/LEETCODE/tree/master/0570-managers-with-at-least-5-direct-reports) |
 | [0577-employee-bonus](https://github.com/Sp-177/LEETCODE/tree/master/0577-employee-bonus) |
 | [0584-find-customer-referee](https://github.com/Sp-177/LEETCODE/tree/master/0584-find-customer-referee) |
+| [1182-game-play-analysis-iv](https://github.com/Sp-177/LEETCODE/tree/master/1182-game-play-analysis-iv) |
 | [1258-article-views-i](https://github.com/Sp-177/LEETCODE/tree/master/1258-article-views-i) |
 | [1338-queries-quality-and-percentage](https://github.com/Sp-177/LEETCODE/tree/master/1338-queries-quality-and-percentage) |
 | [1390-average-selling-price](https://github.com/Sp-177/LEETCODE/tree/master/1390-average-selling-price) |
