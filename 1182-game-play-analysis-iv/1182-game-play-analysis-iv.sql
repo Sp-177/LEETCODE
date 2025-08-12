@@ -7,7 +7,7 @@ WITH firstLogin AS (
 )
 SELECT 
     ROUND(
-        1.0 * COUNT(DISTINCT CASE 
+        1.0 * COUNT( CASE 
                     WHEN a.event_date = DATE_ADD(fl.event_date, INTERVAL 1 DAY) THEN fl.player_id 
                     ELSE NULL 
                 END)
