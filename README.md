@@ -157,6 +157,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [3153-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/Sp-177/LEETCODE/tree/master/3153-apply-operations-on-array-to-maximize-sum-of-squares) |
 | [3197-maximum-strong-pair-xor-ii](https://github.com/Sp-177/LEETCODE/tree/master/3197-maximum-strong-pair-xor-ii) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Sp-177/LEETCODE/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
+| [3292-earliest-second-to-mark-indices-i](https://github.com/Sp-177/LEETCODE/tree/master/3292-earliest-second-to-mark-indices-i) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Sp-177/LEETCODE/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/Sp-177/LEETCODE/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3829-shortest-path-in-a-weighted-tree](https://github.com/Sp-177/LEETCODE/tree/master/3829-shortest-path-in-a-weighted-tree) |
@@ -278,6 +279,7 @@ Feel free to customize this README further to suit your preferences and showcase
 | [2280-count-good-triplets-in-an-array](https://github.com/Sp-177/LEETCODE/tree/master/2280-count-good-triplets-in-an-array) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/Sp-177/LEETCODE/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Sp-177/LEETCODE/tree/master/2699-count-the-number-of-fair-pairs) |
+| [3292-earliest-second-to-mark-indices-i](https://github.com/Sp-177/LEETCODE/tree/master/3292-earliest-second-to-mark-indices-i) |
 ## String
 |  |
 | ------- |
